@@ -2,7 +2,7 @@ import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const navLinks = [
   { label: "Services", href: "#services" },
-  { label: "Property Maintenance", href: "#property-maintenance" },
+  { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "About", href: "#why-different" },
   { label: "Contact", href: "#contact" },
 ];
@@ -16,6 +16,7 @@ const serviceLinks = [
   { label: "Carpentry & Doors", href: "/carpentry-doors-locks/" },
   { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
+  { label: "Property Maintenance", href: "/property-maintenance/" },
 ];
 
 export default function Footer() {

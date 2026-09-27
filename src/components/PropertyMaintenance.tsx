@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { buildWhatsAppLink } from "@/lib/site-config";
 
 const modes = [
@@ -34,16 +35,24 @@ export default function PropertyMaintenance() {
               behalf.
             </p>
 
-            <a
-              href={buildWhatsAppLink(
-                "Hello Dammam Home Solutions, I'd like to ask about property maintenance for: "
-              )}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="focus-ring mt-7 inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
-            >
-              Ask About Property Maintenance
-            </a>
+            <div className="mt-7 flex flex-wrap items-center gap-x-7 gap-y-3">
+              <Link
+                href="/property-maintenance/"
+                className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
+              >
+                See How Property Maintenance Works
+              </Link>
+              <a
+                href={buildWhatsAppLink(
+                  "Hello Dammam Home Solutions, I'd like to ask about property maintenance for: "
+                )}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-rust-700"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
           </div>
 
           <div className="grid gap-px overflow-hidden rounded-2xl border border-ink-900/10 bg-ink-900/10 sm:grid-cols-3">

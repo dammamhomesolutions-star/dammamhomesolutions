@@ -30,6 +30,15 @@ const config: Config = {
           500: "#c76a3f",
           100: "#f3e1d3",
         },
+        moss: {
+          900: "#2c3524",
+          800: "#374330",
+          700: "#4b5a3f",
+          600: "#5f7050",
+          500: "#79895f",
+          200: "#dbe1cd",
+          100: "#eaeee0",
+        },
       },
       fontFamily: {
         sans: [
@@ -57,10 +66,15 @@ const config: Config = {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        drawLine: {
+          "0%": { strokeDashoffset: "1" },
+          "100%": { strokeDashoffset: "0" },
+        },
       },
       animation: {
         fadeUp: "fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both",
         fadeIn: "fadeIn 0.6s ease-out both",
+        drawLine: "drawLine 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards",
       },
     },
   },
