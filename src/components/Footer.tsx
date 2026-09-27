@@ -17,6 +17,7 @@ const serviceLinks = [
   { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
+  { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
 ];
 
 export default function Footer() {

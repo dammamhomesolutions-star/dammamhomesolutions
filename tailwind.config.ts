@@ -39,6 +39,13 @@ const config: Config = {
           200: "#dbe1cd",
           100: "#eaeee0",
         },
+        ember: {
+          900: "#4a2f18",
+          700: "#a8662a",
+          600: "#c17f3e",
+          500: "#d69a5f",
+          100: "#f3e4d1",
+        },
       },
       fontFamily: {
         sans: [
