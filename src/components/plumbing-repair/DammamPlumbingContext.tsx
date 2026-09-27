@@ -1,0 +1,37 @@
+const propertyTypes = [
+  "Villas",
+  "Apartments",
+  "Family homes",
+  "Rental properties",
+  "Residential buildings",
+];
+
+export default function DammamPlumbingContext() {
+  return (
+    <section className="border-y border-ink-900/10 bg-sand-100/60 py-20 sm:py-24">
+      <div className="container-edge grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+        <div className="max-w-xl">
+          <p className="section-label text-teal-700">Local context</p>
+          <h2 className="mt-4 font-serif text-3xl tracking-tight text-ink-950 sm:text-4xl">
+            Plumbing support for homes in Dammam.
+          </h2>
+          <p className="mt-4 leading-relaxed text-ink-700">
+            Plumbing layouts differ across villas, apartments and family
+            homes, and rental properties often add their own timing and
+            access considerations. Telling us what kind of property
+            it is, along with the problem, helps us understand the job
+            before we arrive.
+          </p>
+        </div>
+
+        <ul className="divide-y divide-ink-900/10 border-y border-ink-900/10">
+          {propertyTypes.map((type) => (
+            <li key={type} className="py-3 text-[15px] text-ink-700">
+              {type}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}

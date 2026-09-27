@@ -1,0 +1,109 @@
+interface ScopeItem {
+  label: string;
+  href?: string;
+}
+
+const insideHome: ScopeItem[] = [
+  { label: "Plumbing", href: "/plumbing-repair/" },
+  { label: "Electrical", href: "/electrical-repair/" },
+  { label: "AC & HVAC", href: "/ac-repair/" },
+  { label: "Painting", href: "/painting-wall-repair/" },
+  { label: "Carpentry", href: "/carpentry-doors-locks/" },
+  { label: "Bathroom repairs", href: "/bathroom-kitchen-repair/" },
+  { label: "Kitchen repairs", href: "/bathroom-kitchen-repair/" },
+];
+
+const protectingProperty: ScopeItem[] = [
+  { label: "Waterproofing", href: "/waterproofing/" },
+  { label: "Water leakage repair", href: "/water-leak-repair/" },
+  { label: "Damp & moisture issues" },
+  { label: "Roof-related repairs" },
+];
+
+const keepingRunning: ScopeItem[] = [
+  { label: "General maintenance", href: "/property-maintenance/" },
+  { label: "Preventive maintenance", href: "/property-maintenance/" },
+  { label: "Property maintenance support", href: "/property-maintenance/" },
+];
+
+function ScopeLink({ item }: { item: ScopeItem }) {
+  if (item.href) {
+    return (
+      <a href={item.href} className="focus-ring rounded-sm underline decoration-ink-900/20 underline-offset-4 hover:decoration-rust-600">
+        {item.label}
+      </a>
+    );
+  }
+  return <span>{item.label}</span>;
+}
+
+export default function ServiceScope() {
+  return (
+    <section id="services" className="py-20 sm:py-28">
+      <div className="container-edge">
+        <div className="max-w-2xl">
+          <p className="section-label">Service scope</p>
+          <h2 className="mt-4 font-serif text-3xl tracking-tight text-ink-950 sm:text-4xl">
+            One company, many property problems.
+          </h2>
+        </div>
+
+        <div className="mt-14 grid gap-x-10 gap-y-14 lg:grid-cols-12">
+          {/* Inside the home — numbered ledger style */}
+          <div className="lg:col-span-5">
+            <h3 className="font-serif text-xl text-ink-950">Inside the home</h3>
+            <ol className="mt-5 divide-y divide-ink-900/10 border-t border-ink-900/10">
+              {insideHome.map((item, i) => (
+                <li key={item.label} className="flex items-baseline gap-4 py-3 text-ink-700">
+                  <span className="w-6 flex-none font-serif text-sm text-ink-400">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="text-[15px]">
+                    <ScopeLink item={item} />
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          {/* Protecting the property — bordered panel */}
+          <div className="lg:col-span-4">
+            <div className="h-full rounded-2xl border border-ink-900/15 bg-sand-100/70 p-7">
+              <h3 className="font-serif text-xl text-ink-950">Protecting the property</h3>
+              <p className="mt-2 text-sm text-ink-600">
+                Moisture and water are the most common causes of long-term
+                property damage.
+              </p>
+              <ul className="mt-5 space-y-3">
+                {protectingProperty.map((item) => (
+                  <li key={item.label} className="flex items-center gap-2.5 text-[15px] text-ink-700">
+                    <span aria-hidden="true" className="h-px w-4 flex-none bg-rust-600" />
+                    <ScopeLink item={item} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Keeping the property running — inline flowing tags */}
+          <div className="lg:col-span-3">
+            <h3 className="font-serif text-xl text-ink-950">Keeping it running</h3>
+            <p className="mt-2 text-sm text-ink-600">
+              Ongoing care rather than one-off fixes.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              {keepingRunning.map((item) => (
+                <span
+                  key={item.label}
+                  className="rounded-full border border-ink-900/15 px-3.5 py-1.5 text-[13px] text-ink-700"
+                >
+                  <ScopeLink item={item} />
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
