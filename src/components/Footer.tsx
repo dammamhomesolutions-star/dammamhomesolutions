@@ -15,6 +15,7 @@ const serviceLinks = [
   { label: "Painting", href: "/painting-wall-repair/" },
   { label: "Carpentry & Doors", href: "/carpentry-doors-locks/" },
   { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
+  { label: "Tile & Grout Repair", href: "/tile-repair-grout/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
