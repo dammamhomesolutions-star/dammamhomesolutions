@@ -118,11 +118,11 @@ export default function TrScrollJourney() {
 
           {/* Scene C: exploded cross-section */}
           <motion.div style={{ opacity: explodedOpacity }} className="absolute flex flex-col items-center">
-            <svg viewBox="0 0 260 220" className="h-64 w-auto sm:h-80" aria-hidden="true">
+            <svg viewBox="0 0 340 220" className="h-64 w-auto sm:h-80" aria-hidden="true">
               {tileLayers.map((layer, i) => (
                 <motion.g key={layer.id} style={{ y: layerYs[i] }}>
                   <rect
-                    x="40"
+                    x="20"
                     y={20 + i * 34}
                     width="180"
                     height="26"
@@ -130,7 +130,7 @@ export default function TrScrollJourney() {
                     stroke="#8e97a8"
                     strokeWidth="0.6"
                   />
-                  <text x="230" y={20 + i * 34 + 17} fontSize="10" fill="#4a5468">
+                  <text x="210" y={20 + i * 34 + 17} fontSize="10" fill="#4a5468">
                     {layer.label}
                   </text>
                 </motion.g>

@@ -32,7 +32,7 @@ export default function TrExplodedTile() {
             aria-pressed={exploded}
             onMouseEnter={() => setExploded(true)}
             onMouseLeave={() => setExploded(false)}
-            onClick={() => setExploded((v) => !v)}
+            onClick={() => setExploded(true)}
             className="focus-ring relative h-72 w-full max-w-md sm:h-80"
             aria-label="Tap to reveal the layers under a tile"
           >
@@ -54,17 +54,21 @@ export default function TrExplodedTile() {
             ))}
 
             {(exploded || shouldReduceMotion) &&
-              tileLayers.slice(1).map((layer, i) => (
-                <motion.span
-                  key={layer.id}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className="absolute left-[calc(50%+150px)] text-xs font-medium text-ink-600 sm:left-[calc(50%+170px)]"
-                  style={{ top: (i + 1) * (shouldReduceMotion ? COLLAPSED_GAP + 4 : EXPLODED_GAP) + 18 }}
-                >
-                  {layer.label}
-                </motion.span>
-              ))}
+              tileLayers.slice(1).map((layer, i) => {
+                const gap = shouldReduceMotion ? COLLAPSED_GAP + 4 : EXPLODED_GAP;
+                const boxCenter = (i + 1) * gap + 28;
+                return (
+                  <motion.span
+                    key={layer.id}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="absolute left-[calc(50%+150px)] whitespace-nowrap text-xs font-medium text-ink-600 sm:left-[calc(50%+170px)]"
+                    style={{ top: boxCenter - 8 }}
+                  >
+                    {layer.label}
+                  </motion.span>
+                );
+              })}
           </button>
         </div>
 

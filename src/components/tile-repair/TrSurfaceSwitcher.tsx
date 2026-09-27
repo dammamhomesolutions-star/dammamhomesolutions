@@ -44,10 +44,10 @@ export default function TrSurfaceSwitcher() {
           })}
         </div>
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+        <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center">
           <div
             key={active.id}
-            className={`animate-fadeIn overflow-hidden rounded-sm border border-ink-900/10 ${shapeClasses[active.id]}`}
+            className={`animate-fadeIn w-full overflow-hidden rounded-sm border border-ink-900/10 ${shapeClasses[active.id]}`}
           >
             <div
               className="grid h-full w-full gap-[3px] bg-ink-300 p-[3px]"
