@@ -16,6 +16,7 @@ const serviceLinks = [
   { label: "Carpentry & Doors", href: "/carpentry-doors-locks/" },
   { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
   { label: "Tile & Grout Repair", href: "/tile-repair-grout/" },
+  { label: "Ceiling & Gypsum Board Repair", href: "/ceiling-gypsum-board-repair/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
