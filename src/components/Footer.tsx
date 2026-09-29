@@ -12,6 +12,7 @@ const serviceLinks = [
   { label: "Plumbing", href: "/plumbing-repair/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
+  { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },
   { label: "Painting", href: "/painting-wall-repair/" },
   { label: "Carpentry & Doors", href: "/carpentry-doors-locks/" },
   { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
