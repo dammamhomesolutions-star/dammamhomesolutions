@@ -1,4 +1,4 @@
-import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
+import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const sendItems = [
   "What is wrong?",
@@ -51,7 +51,7 @@ export default function WhatsAppPanel() {
               {siteConfig.phoneDisplay && (
                 <p className="text-sm text-ink-600">
                   Or call{" "}
-                  <a href={`tel:${siteConfig.phoneDisplay}`} className="focus-ring rounded-sm font-medium text-ink-900 underline">
+                  <a href={buildTelLink()} className="focus-ring rounded-sm font-medium text-ink-900 underline">
                     {siteConfig.phoneDisplay}
                   </a>
                 </p>

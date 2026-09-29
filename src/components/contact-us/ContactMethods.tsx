@@ -1,4 +1,4 @@
-import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
+import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const sendItems = [
   "What is wrong?",
@@ -67,7 +67,7 @@ export default function ContactMethods() {
           {siteConfig.phoneDisplay ? (
             <div className="rounded-md border border-ink-900/10 p-6">
               <p className="text-xs font-semibold uppercase tracking-[0.1em] text-ink-500">Phone</p>
-              <a href={`tel:${siteConfig.phoneDisplay}`} className="focus-ring mt-2 block text-lg font-medium text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
+              <a href={buildTelLink()} className="focus-ring mt-2 block text-lg font-medium text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
                 {siteConfig.phoneDisplay}
               </a>
             </div>

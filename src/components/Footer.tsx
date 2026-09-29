@@ -1,4 +1,4 @@
-import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
+import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const navLinks = [
   { label: "Services", href: "/#services" },
@@ -95,7 +95,7 @@ export default function Footer() {
             </li>
             {siteConfig.phoneDisplay && (
               <li>
-                <a href={`tel:${siteConfig.phoneDisplay}`} className="focus-ring rounded-sm hover:text-rust-700">
+                <a href={buildTelLink()} className="focus-ring rounded-sm hover:text-rust-700">
                   {siteConfig.phoneDisplay}
                 </a>
               </li>

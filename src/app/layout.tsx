@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${siteConfig.name} | Property Repair & Maintenance`,
     description: siteConfig.description,
   },
@@ -55,6 +55,7 @@ export default function RootLayout({
         name: siteConfig.name,
         description: siteConfig.description,
         url: siteConfig.url,
+        telephone: siteConfig.phoneDisplay,
         areaServed: {
           "@type": "City",
           name: "Dammam",
