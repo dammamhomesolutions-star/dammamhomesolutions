@@ -12,12 +12,12 @@ export default function AcHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sky-700">
             Dammam · AC repair &amp; maintenance
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             AC Repair &amp; Maintenance in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            AC not cooling? Start with the symptom.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            AC not cooling? Start with the symptom.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Whether the air is weak, warm, noisy or leaking water, Dammam
             Home Solutions can help identify the problem and arrange the

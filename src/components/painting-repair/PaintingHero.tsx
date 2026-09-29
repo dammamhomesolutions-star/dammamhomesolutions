@@ -12,12 +12,12 @@ export default function PaintingHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-rust-700">
             Dammam · Painting &amp; wall repair
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             Painting &amp; Wall Repair in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            Before you paint it, understand the surface.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            Before you paint it, understand the surface.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Cracks, stains, peeling paint and worn finishes can require
             more than a fresh coat. Dammam Home Solutions handles wall

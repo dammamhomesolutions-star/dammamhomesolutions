@@ -12,12 +12,12 @@ export default function RoomHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-800">
             Dammam · Bathroom &amp; kitchen repair
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             Bathroom &amp; Kitchen Repair in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            Two rooms. A lot of things that can go wrong.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            Two rooms. A lot of things that can go wrong.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             From a leaking kitchen sink to a damaged bathroom surface,
             Dammam Home Solutions handles practical repair and maintenance

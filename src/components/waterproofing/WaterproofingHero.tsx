@@ -12,12 +12,12 @@ export default function WaterproofingHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-800">
             Dammam · Waterproofing &amp; water leak protection
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             Waterproofing &amp; Water Leak Protection in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            The stain is visible. The source may not be.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            The stain is visible. The source may not be.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Damp walls, ceiling marks and recurring moisture can have
             different causes. Dammam Home Solutions helps property owners

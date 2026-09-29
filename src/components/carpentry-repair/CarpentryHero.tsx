@@ -12,12 +12,12 @@ export default function CarpentryHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
             Dammam · Carpentry, doors &amp; locks
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             Carpentry, Door &amp; Lock Repair in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            If it doesn&rsquo;t close properly, something needs attention.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            If it doesn&rsquo;t close properly, something needs attention.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Doors, locks, hinges, handles and household woodwork can
             develop small problems that become part of everyday life.

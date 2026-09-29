@@ -12,12 +12,12 @@ export default function PlumbingHero() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-teal-700">
             Dammam · Plumbing &amp; water leak repair
           </p>
-          <h1 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
+          <h2 className="mt-3 text-sm font-semibold uppercase tracking-[0.08em] text-ink-500">
             Plumbing &amp; Water Leak Repair in Dammam
-          </h1>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            Plumbing problems rarely stay where they start.
           </h2>
+          <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
+            Plumbing problems rarely stay where they start.
+          </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             From a dripping tap to water appearing through a wall or
             ceiling, Dammam Home Solutions handles plumbing repairs and
