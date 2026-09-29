@@ -11,6 +11,11 @@ const insideHome: ScopeItem[] = [
   { label: "Carpentry", href: "/carpentry-doors-locks/" },
   { label: "Bathroom repairs", href: "/bathroom-kitchen-repair/" },
   { label: "Kitchen repairs", href: "/bathroom-kitchen-repair/" },
+  { label: "Kitchen cabinet repair", href: "/kitchen-cabinet-repair/" },
+  { label: "Window, door & glass repair", href: "/window-door-glass-repair/" },
+  { label: "Tile & grout repair", href: "/tile-repair-grout/" },
+  { label: "Ceiling & gypsum board repair", href: "/ceiling-gypsum-board-repair/" },
+  { label: "Flooring repair", href: "/flooring-repair/" },
 ];
 
 const protectingProperty: ScopeItem[] = [
@@ -24,6 +29,8 @@ const keepingRunning: ScopeItem[] = [
   { label: "General maintenance", href: "/property-maintenance/" },
   { label: "Preventive maintenance", href: "/property-maintenance/" },
   { label: "Property maintenance support", href: "/property-maintenance/" },
+  { label: "General home repairs", href: "/general-home-repairs/" },
+  { label: "Emergency home repairs", href: "/emergency-home-repairs/" },
 ];
 
 function ScopeLink({ item }: { item: ScopeItem }) {
