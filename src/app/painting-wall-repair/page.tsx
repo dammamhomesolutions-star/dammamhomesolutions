@@ -19,6 +19,7 @@ import PropertyOwnersPaintingSection from "@/components/painting-repair/Property
 import SendUsTheWallPanel from "@/components/painting-repair/SendUsTheWallPanel";
 import PaintingJourney from "@/components/painting-repair/PaintingJourney";
 import DammamPaintingContext from "@/components/painting-repair/DammamPaintingContext";
+import PaintingRelatedServices from "@/components/painting-repair/PaintingRelatedServices";
 import PaintingFaq from "@/components/painting-repair/PaintingFaq";
 
 const pageUrl = `${siteConfig.url}/painting-wall-repair/`;
@@ -112,6 +113,7 @@ export default function PaintingWallRepairPage() {
         <SendUsTheWallPanel />
         <PaintingJourney />
         <DammamPaintingContext />
+        <PaintingRelatedServices />
         <PaintingFaq />
       </main>
       <Footer />

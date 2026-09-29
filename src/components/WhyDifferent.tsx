@@ -1,19 +1,23 @@
 const points = [
   {
-    title: "Clear scope",
-    body: "You should understand what work is actually being discussed before it starts.",
+    title: "WhatsApp-first, photo-based assessment",
+    body: "Send a photo or short video of the problem before a visit is arranged, so the first conversation is about the actual issue, not guesswork.",
   },
   {
     title: "Problem-first communication",
     body: "We ask about the actual issue instead of forcing it into a fixed service category.",
   },
   {
+    title: "Clear scope before work starts",
+    body: "You should understand what work is actually being discussed — and why — before anyone visits the property.",
+  },
+  {
     title: "Residential focus",
     body: "Everyday property problems — not new construction — are the core of what we do.",
   },
   {
-    title: "One place for multiple trades",
-    body: "Where a job involves more than one trade, you can discuss it here rather than contacting separate specialists.",
+    title: "One contact for multiple trades",
+    body: "Where a job involves more than one trade — AC, plumbing, electrical, general repairs — you can discuss it here rather than contacting separate specialists.",
   },
 ];
 

@@ -53,16 +53,40 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const serviceSlugs = [
+    "ac-repair",
+    "plumbing-repair",
+    "electrical-repair",
+    "waterproofing",
+    "painting-wall-repair",
+    "carpentry-doors-locks",
+    "bathroom-kitchen-repair",
+    "general-home-repairs",
+    "property-maintenance",
+    "emergency-home-repairs",
+    "tile-repair-grout",
+    "ceiling-gypsum-board-repair",
+    "window-door-glass-repair",
+    "kitchen-cabinet-repair",
+    "flooring-repair",
+    "gate-garage-door-repair",
+    "roof-repair",
+    "water-leak-repair",
+    "water-tank-cleaning",
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
         "@id": `${siteConfig.url}/#business`,
         name: siteConfig.name,
         description: siteConfig.description,
         url: siteConfig.url,
+        image: `${siteConfig.url}/opengraph-image`,
         telephone: siteConfig.phoneDisplay,
+        ...(siteConfig.email ? { email: siteConfig.email } : {}),
         areaServed: {
           "@type": "City",
           name: "Dammam",
@@ -71,6 +95,14 @@ export default function RootLayout({
           "@type": "PostalAddress",
           addressLocality: "Dammam",
           addressCountry: "SA",
+        },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Property repair and maintenance services",
+          itemListElement: serviceSlugs.map((slug) => ({
+            "@type": "Offer",
+            itemOffered: { "@id": `${siteConfig.url}/${slug}/#service` },
+          })),
         },
       },
       {

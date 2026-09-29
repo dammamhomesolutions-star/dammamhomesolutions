@@ -31,6 +31,11 @@ export default function ElectricalProblemsList() {
     <section className="py-20 sm:py-24">
       <div className="container-edge max-w-3xl">
         <p className="section-label text-blue-700">Electrical problems we handle</p>
+        <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ink-600">
+          Electrical repair cost depends on the fault, what needs testing
+          and whether parts need replacing. Send a photo or short video on
+          WhatsApp for an initial assessment.
+        </p>
 
         <div className="mt-10 space-y-7">
           {problems.map((p) => (

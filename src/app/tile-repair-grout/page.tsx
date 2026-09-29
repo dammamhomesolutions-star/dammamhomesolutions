@@ -22,6 +22,7 @@ import TrMaterialDetail from "@/components/tile-repair/TrMaterialDetail";
 import TrCommonPlaces from "@/components/tile-repair/TrCommonPlaces";
 import TrDammamContext from "@/components/tile-repair/TrDammamContext";
 import TrLandlordSection from "@/components/tile-repair/TrLandlordSection";
+import TrRelatedServices from "@/components/tile-repair/TrRelatedServices";
 import TrFinalCta from "@/components/tile-repair/TrFinalCta";
 import TrFaq from "@/components/tile-repair/TrFaq";
 
@@ -119,6 +120,7 @@ export default function TileRepairGroutPage() {
         <TrCommonPlaces />
         <TrDammamContext />
         <TrLandlordSection />
+        <TrRelatedServices />
         <TrFinalCta />
         <TrFaq />
       </main>

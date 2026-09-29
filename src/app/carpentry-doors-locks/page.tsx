@@ -20,6 +20,7 @@ import RentalPropertyCarpentrySection from "@/components/carpentry-repair/Rental
 import RepairListChecklist from "@/components/carpentry-repair/RepairListChecklist";
 import DammamCarpentryContext from "@/components/carpentry-repair/DammamCarpentryContext";
 import CarpentryJourney from "@/components/carpentry-repair/CarpentryJourney";
+import CarpentryRelatedServices from "@/components/carpentry-repair/CarpentryRelatedServices";
 import CarpentryRequestPanel from "@/components/carpentry-repair/CarpentryRequestPanel";
 import CarpentryFaq from "@/components/carpentry-repair/CarpentryFaq";
 
@@ -115,6 +116,7 @@ export default function CarpentryDoorsLocksPage() {
         <RepairListChecklist />
         <DammamCarpentryContext />
         <CarpentryJourney />
+        <CarpentryRelatedServices />
         <CarpentryRequestPanel />
         <CarpentryFaq />
       </main>

@@ -22,6 +22,7 @@ import CrPhoneGuide from "@/components/ceiling-repair/CrPhoneGuide";
 import CrPropertyOwnerSection from "@/components/ceiling-repair/CrPropertyOwnerSection";
 import CrDammamContext from "@/components/ceiling-repair/CrDammamContext";
 import CrScopeBoundaries from "@/components/ceiling-repair/CrScopeBoundaries";
+import CrRelatedServices from "@/components/ceiling-repair/CrRelatedServices";
 import CrFinalCta from "@/components/ceiling-repair/CrFinalCta";
 import CrFaq from "@/components/ceiling-repair/CrFaq";
 
@@ -119,6 +120,7 @@ export default function CeilingGypsumBoardRepairPage() {
         <CrPropertyOwnerSection />
         <CrDammamContext />
         <CrScopeBoundaries />
+        <CrRelatedServices />
         <CrFinalCta />
         <CrFaq />
       </main>

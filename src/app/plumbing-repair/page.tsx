@@ -18,6 +18,7 @@ import DammamPlumbingContext from "@/components/plumbing-repair/DammamPlumbingCo
 import RepairVsPropertyMaintenance from "@/components/plumbing-repair/RepairVsPropertyMaintenance";
 import PlumbingJourney from "@/components/plumbing-repair/PlumbingJourney";
 import PropertyOwnersSection from "@/components/plumbing-repair/PropertyOwnersSection";
+import PlumbingRelatedServices from "@/components/plumbing-repair/PlumbingRelatedServices";
 import PlumbingRequestPanel from "@/components/plumbing-repair/PlumbingRequestPanel";
 import PlumbingFaq from "@/components/plumbing-repair/PlumbingFaq";
 
@@ -111,6 +112,7 @@ export default function PlumbingRepairPage() {
         <RepairVsPropertyMaintenance />
         <PlumbingJourney />
         <PropertyOwnersSection />
+        <PlumbingRelatedServices />
         <PlumbingRequestPanel />
         <PlumbingFaq />
       </main>

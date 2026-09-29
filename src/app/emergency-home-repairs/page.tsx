@@ -19,6 +19,7 @@ import EhDoorAccess from "@/components/emergency-repairs/EhDoorAccess";
 import EhNotEmergencyBridge from "@/components/emergency-repairs/EhNotEmergencyBridge";
 import EhLandlordFlow from "@/components/emergency-repairs/EhLandlordFlow";
 import EhDammamContext from "@/components/emergency-repairs/EhDammamContext";
+import EhRelatedServices from "@/components/emergency-repairs/EhRelatedServices";
 import EhFinalCta from "@/components/emergency-repairs/EhFinalCta";
 import EhFaq from "@/components/emergency-repairs/EhFaq";
 import EhMobileStickyCta from "@/components/emergency-repairs/EhMobileStickyCta";
@@ -115,6 +116,7 @@ export default function EmergencyHomeRepairsPage() {
         <EhNotEmergencyBridge />
         <EhLandlordFlow />
         <EhDammamContext />
+        <EhRelatedServices />
         <EhFinalCta />
         <EhFaq />
       </main>

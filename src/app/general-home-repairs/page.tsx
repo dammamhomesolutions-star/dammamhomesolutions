@@ -19,6 +19,7 @@ import RepairOrReplaceFlow from "@/components/general-repairs/RepairOrReplaceFlo
 import LandlordSection from "@/components/general-repairs/LandlordSection";
 import DammamRepairContext from "@/components/general-repairs/DammamRepairContext";
 import ServiceBoundariesSection from "@/components/general-repairs/ServiceBoundariesSection";
+import GeneralRepairsRelatedServices from "@/components/general-repairs/GeneralRepairsRelatedServices";
 import FinalRequestPanel from "@/components/general-repairs/FinalRequestPanel";
 import GeneralRepairsFaq from "@/components/general-repairs/GeneralRepairsFaq";
 
@@ -113,6 +114,7 @@ export default function GeneralHomeRepairsPage() {
         <LandlordSection />
         <DammamRepairContext />
         <ServiceBoundariesSection />
+        <GeneralRepairsRelatedServices />
         <FinalRequestPanel />
         <GeneralRepairsFaq />
       </main>

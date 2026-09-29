@@ -21,6 +21,7 @@ import PmMaintenanceRecord from "@/components/property-maintenance/PmMaintenance
 import PmDammamContext from "@/components/property-maintenance/PmDammamContext";
 import PmWhenToCall from "@/components/property-maintenance/PmWhenToCall";
 import PmScopeBoundaries from "@/components/property-maintenance/PmScopeBoundaries";
+import PmRelatedServices from "@/components/property-maintenance/PmRelatedServices";
 import PmFinalCta from "@/components/property-maintenance/PmFinalCta";
 import PmFaq from "@/components/property-maintenance/PmFaq";
 
@@ -117,6 +118,7 @@ export default function PropertyMaintenancePage() {
         <PmDammamContext />
         <PmWhenToCall />
         <PmScopeBoundaries />
+        <PmRelatedServices />
         <PmFinalCta />
         <PmFaq />
       </main>

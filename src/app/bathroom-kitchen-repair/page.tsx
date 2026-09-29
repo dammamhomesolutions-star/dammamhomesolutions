@@ -20,6 +20,7 @@ import PropertyTypesSection from "@/components/bathroom-kitchen-repair/PropertyT
 import LandlordRoomSection from "@/components/bathroom-kitchen-repair/LandlordRoomSection";
 import RoomJourney from "@/components/bathroom-kitchen-repair/RoomJourney";
 import DammamRoomContext from "@/components/bathroom-kitchen-repair/DammamRoomContext";
+import RoomRelatedServices from "@/components/bathroom-kitchen-repair/RoomRelatedServices";
 import RoomRequestPanel from "@/components/bathroom-kitchen-repair/RoomRequestPanel";
 import RoomFaq from "@/components/bathroom-kitchen-repair/RoomFaq";
 
@@ -115,6 +116,7 @@ export default function BathroomKitchenRepairPage() {
         <LandlordRoomSection />
         <RoomJourney />
         <DammamRoomContext />
+        <RoomRelatedServices />
         <RoomRequestPanel />
         <RoomFaq />
       </main>

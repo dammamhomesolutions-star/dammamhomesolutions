@@ -17,6 +17,7 @@ import PropertyContextSection from "@/components/electrical-repair/PropertyConte
 import DammamElectricalContext from "@/components/electrical-repair/DammamElectricalContext";
 import ElectricalJourney from "@/components/electrical-repair/ElectricalJourney";
 import UrgentSafetyPanel from "@/components/electrical-repair/UrgentSafetyPanel";
+import ElectricalRelatedServices from "@/components/electrical-repair/ElectricalRelatedServices";
 import ElectricalRequestPanel from "@/components/electrical-repair/ElectricalRequestPanel";
 import ElectricalFaq from "@/components/electrical-repair/ElectricalFaq";
 
@@ -109,6 +110,7 @@ export default function ElectricalRepairPage() {
         <DammamElectricalContext />
         <ElectricalJourney />
         <UrgentSafetyPanel />
+        <ElectricalRelatedServices />
         <ElectricalRequestPanel />
         <ElectricalFaq />
       </main>

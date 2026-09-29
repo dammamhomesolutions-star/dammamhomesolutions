@@ -6,6 +6,7 @@ import MobileStickyCta from "@/components/MobileStickyCta";
 import AcBreadcrumb from "@/components/ac-repair/AcBreadcrumb";
 import AcHero from "@/components/ac-repair/AcHero";
 import AcSymptomSelector from "@/components/ac-repair/AcSymptomSelector";
+import AcServicesBreakdown from "@/components/ac-repair/AcServicesBreakdown";
 import DontReplaceYet from "@/components/ac-repair/DontReplaceYet";
 import AcInvestigationFlow from "@/components/ac-repair/AcInvestigationFlow";
 import AcProblemWall from "@/components/ac-repair/AcProblemWall";
@@ -15,6 +16,7 @@ import AcPropertyContext from "@/components/ac-repair/AcPropertyContext";
 import WhenToCall from "@/components/ac-repair/WhenToCall";
 import DammamAcContext from "@/components/ac-repair/DammamAcContext";
 import AcMaintenanceSection from "@/components/ac-repair/AcMaintenanceSection";
+import AcRelatedServices from "@/components/ac-repair/AcRelatedServices";
 import AcRequestPanel from "@/components/ac-repair/AcRequestPanel";
 import AcFaq from "@/components/ac-repair/AcFaq";
 
@@ -93,6 +95,7 @@ export default function AcRepairPage() {
       <main id="main">
         <AcHero />
         <AcSymptomSelector />
+        <AcServicesBreakdown />
         <DontReplaceYet />
         <AcInvestigationFlow />
         <AcProblemWall />
@@ -102,6 +105,7 @@ export default function AcRepairPage() {
         <WhenToCall />
         <DammamAcContext />
         <AcMaintenanceSection />
+        <AcRelatedServices />
         <AcRequestPanel />
         <AcFaq />
       </main>

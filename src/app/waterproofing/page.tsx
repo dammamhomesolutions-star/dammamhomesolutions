@@ -18,6 +18,7 @@ import AssessmentJourney from "@/components/waterproofing/AssessmentJourney";
 import SurfaceDamageSection from "@/components/waterproofing/SurfaceDamageSection";
 import DammamWaterproofingContext from "@/components/waterproofing/DammamWaterproofingContext";
 import PropertyOwnersMoistureSection from "@/components/waterproofing/PropertyOwnersMoistureSection";
+import WaterproofingRelatedServices from "@/components/waterproofing/WaterproofingRelatedServices";
 import WaterproofingRequestPanel from "@/components/waterproofing/WaterproofingRequestPanel";
 import WaterproofingFaq from "@/components/waterproofing/WaterproofingFaq";
 
@@ -111,6 +112,7 @@ export default function WaterproofingPage() {
         <SurfaceDamageSection />
         <DammamWaterproofingContext />
         <PropertyOwnersMoistureSection />
+        <WaterproofingRelatedServices />
         <WaterproofingRequestPanel />
         <WaterproofingFaq />
       </main>

@@ -30,6 +30,11 @@ export default function ProblemList() {
     <section className="py-20 sm:py-24">
       <div className="container-edge">
         <p className="section-label text-teal-700">Plumbing problems we handle</p>
+        <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-ink-600">
+          Plumbing repair cost depends on the fault, the fixtures involved
+          and whether parts need replacing. Send a photo or short video on
+          WhatsApp for an initial assessment.
+        </p>
 
         <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-start">
           <div className="border-b border-ink-900/15 pb-8 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-10">
