@@ -33,7 +33,7 @@ export default function KitchenPlumbingSection() {
               "Hello Dammam Home Solutions, I have a kitchen plumbing problem. Here's what's happening: "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-7 inline-flex items-center rounded-full bg-teal-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
           >
             WhatsApp about a kitchen issue

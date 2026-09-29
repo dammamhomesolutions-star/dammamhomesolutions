@@ -20,7 +20,7 @@ export default function PmFinalCta() {
                 "Hello Dammam Home Solutions, I'd like to request property maintenance. Here's what I've noticed: "
               )}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
             >
               Request Property Maintenance
@@ -28,7 +28,7 @@ export default function PmFinalCta() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to get in touch.")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-moss-700"
             >
               WhatsApp Dammam Home Solutions

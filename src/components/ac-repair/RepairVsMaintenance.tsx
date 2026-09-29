@@ -28,7 +28,7 @@ export default function RepairVsMaintenance() {
             "Hello Dammam Home Solutions, I have an active AC problem. Here's what's happening: "
           )}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-8 inline-flex items-center rounded-full bg-rust-600 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
         >
           Request AC Repair
@@ -66,7 +66,7 @@ export default function RepairVsMaintenance() {
             "Hello Dammam Home Solutions, I'd like to ask about AC maintenance. Here's some context: "
           )}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-8 inline-flex items-center rounded-full border border-ink-900/20 px-6 py-3 text-sm font-semibold text-ink-900 hover:bg-ink-900/5"
         >
           Ask About AC Maintenance

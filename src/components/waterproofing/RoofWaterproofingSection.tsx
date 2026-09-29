@@ -40,7 +40,7 @@ export default function RoofWaterproofingSection() {
               "Hello Dammam Home Solutions, I'd like to ask about roof waterproofing. Here's the situation: "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-7 inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             Ask About Roof Waterproofing

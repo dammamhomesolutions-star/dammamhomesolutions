@@ -42,7 +42,7 @@ export default function ContactMethods() {
                   "Hello Dammam Home Solutions, I'd like to request a repair. Here's what's happening: "
                 )}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-full bg-rust-700 px-7 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02] lg:w-auto"
               >
                 WhatsApp Dammam Home Solutions
@@ -57,7 +57,7 @@ export default function ContactMethods() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to get in touch.")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-2 block text-lg font-medium text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700"
             >
               Message us

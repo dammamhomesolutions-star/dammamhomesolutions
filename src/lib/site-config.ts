@@ -7,7 +7,7 @@ export const siteConfig = {
   locale: "en_SA",
   region: "Dammam, Saudi Arabia",
   description:
-    "Dammam Home Solutions provides property repair and maintenance services in Dammam, including AC, plumbing, electrical, waterproofing, painting and general repairs.",
+    "Property repair and maintenance in Dammam — AC, plumbing, electrical, waterproofing, painting and general home repairs, handled directly.",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966574205462",
   phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? "+966 57 420 5462",
   // TODO: replace with the verified public contact email.

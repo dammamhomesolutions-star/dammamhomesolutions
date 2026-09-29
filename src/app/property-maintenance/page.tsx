@@ -27,7 +27,7 @@ import PmFaq from "@/components/property-maintenance/PmFaq";
 const pageUrl = `${siteConfig.url}/property-maintenance/`;
 const title = "Property Maintenance in Dammam";
 const description =
-  "Practical property maintenance for villas, apartments and existing homes in Dammam. Get help with AC, plumbing, electrical, surfaces, fixtures and everyday property repairs.";
+  "Property maintenance for villas, apartments and homes in Dammam — AC, plumbing, electrical, surfaces, fixtures and everyday repairs.";
 
 export const metadata: Metadata = {
   title,
@@ -41,11 +41,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

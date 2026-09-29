@@ -90,7 +90,7 @@ export default function WhatStoppedWorking() {
               <a
                 href={buildWhatsAppLink(active.whatsappMessage)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex w-full items-center justify-center rounded-full bg-rust-700 px-5 py-3 text-center text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
               >
                 Describe This Problem on WhatsApp

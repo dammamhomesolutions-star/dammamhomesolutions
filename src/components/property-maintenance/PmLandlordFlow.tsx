@@ -22,7 +22,7 @@ export default function PmLandlordFlow() {
                 "Hello Dammam Home Solutions, I manage more than one property and would like to send maintenance requests. Here's the property, issues and priorities: "
               )}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-6 inline-flex items-center rounded-full border border-ink-900/20 px-6 py-3 text-sm font-semibold text-ink-900 transition-colors hover:border-moss-700 hover:text-moss-700"
             >
               Send Multiple Property Concerns

@@ -163,7 +163,7 @@ export default function RepairIntakeFlow() {
               <a
                 href={buildWhatsAppLink(message)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring rounded-full bg-rust-700 px-6 py-2.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
               >
                 Send on WhatsApp

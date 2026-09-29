@@ -126,7 +126,7 @@ export default function GdSymptomWall() {
                   <a
                     href={buildWhatsAppLink("Hello Dammam Home Solutions, I'm not sure what's wrong with my gate or garage door. Here's what I've noticed: ")}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="focus-ring mt-2 inline-flex items-center gap-1 text-xs font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700"
                   >
                     Send a photo <span aria-hidden="true">→</span>

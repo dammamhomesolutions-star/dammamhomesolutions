@@ -26,7 +26,7 @@ import EhMobileStickyCta from "@/components/emergency-repairs/EhMobileStickyCta"
 const pageUrl = `${siteConfig.url}/emergency-home-repairs/`;
 const title = "Emergency Home Repairs in Dammam";
 const description =
-  "Need help with a sudden home repair problem in Dammam? Tell us what happened, where it occurred and send photos so we can guide your request to the appropriate repair service.";
+  "Sudden home repair problem in Dammam? Tell us what happened and send photos so we can route your request to the right repair service.";
 
 export const metadata: Metadata = {
   title,
@@ -40,11 +40,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

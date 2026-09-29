@@ -21,7 +21,7 @@ import WtFaq from "@/components/water-tank-cleaning/WtFaq";
 const pageUrl = `${siteConfig.url}/water-tank-cleaning/`;
 const title = "Water Tank Cleaning in Dammam";
 const description =
-  "Water tank cleaning in Dammam for rooftop, underground and steel tanks — sediment removal, disinfection and general tank condition assessment. Send a photo for an assessment.";
+  "Water tank cleaning in Dammam for rooftop, underground and steel tanks — sediment removal, disinfection and condition assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -35,11 +35,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

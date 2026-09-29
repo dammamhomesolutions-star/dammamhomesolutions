@@ -99,7 +99,7 @@ export default function RfPhotoRequest() {
               <a
                 href={buildWhatsAppLink(active.message)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-4 inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
               >
                 Send via WhatsApp
@@ -109,7 +109,7 @@ export default function RfPhotoRequest() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a rooftop issue. ")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-6 inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
             >
               Send via WhatsApp

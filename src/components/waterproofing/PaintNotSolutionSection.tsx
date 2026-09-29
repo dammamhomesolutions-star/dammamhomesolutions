@@ -41,7 +41,7 @@ export default function PaintNotSolutionSection() {
             "Hello Dammam Home Solutions, I have a moisture problem that keeps returning after repainting. Here's what's happening: "
           )}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-9 inline-flex items-center rounded-full bg-cyan-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
         >
           Ask About the Moisture Problem

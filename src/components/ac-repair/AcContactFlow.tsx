@@ -47,7 +47,7 @@ export default function AcContactFlow() {
               "Hello Dammam Home Solutions, I need AC repair or maintenance in Dammam. The issue is: "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-7 inline-flex items-center rounded-full bg-rust-700 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             WhatsApp AC Repair

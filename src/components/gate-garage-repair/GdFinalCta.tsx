@@ -32,7 +32,7 @@ export default function GdFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a gate or garage door repair assessment. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex items-center rounded-full bg-rust-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
               >
                 Request a Repair Assessment
@@ -40,7 +40,7 @@ export default function GdFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a gate or garage door issue. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-rust-400"
               >
                 Send Photos

@@ -33,7 +33,7 @@ function StaticFallback() {
       <div className="container-edge max-w-2xl">
         <p className="section-label !text-clay-700">From the room to the surface</p>
         <h2 className="mt-4 font-serif text-3xl tracking-tight text-ink-950 sm:text-4xl">
-          What you see is only the surface.
+          The floor is more than what you&rsquo;re standing on.
         </h2>
         <ol className="mt-8 space-y-4">
           {frames.map((frame, i) => (
@@ -92,7 +92,7 @@ export default function FlScrollDescent() {
         <div className="container-edge pt-14">
           <p className="section-label !text-clay-700">From the room to the surface</p>
           <h2 className="mt-4 max-w-xl font-serif text-2xl tracking-tight text-ink-950 sm:text-3xl">
-            What you see is only the surface.
+            The floor is more than what you&rsquo;re standing on.
           </h2>
         </div>
 

@@ -22,7 +22,7 @@ import PlumbingRequestPanel from "@/components/plumbing-repair/PlumbingRequestPa
 import PlumbingFaq from "@/components/plumbing-repair/PlumbingFaq";
 
 const pageUrl = `${siteConfig.url}/plumbing-repair/`;
-const title = "Plumbing & Water Leak Repair in Dammam";
+const title = "Plumbing Repair in Dammam";
 const description =
   "Dammam Home Solutions provides plumbing repair and water-leak services in Dammam, including bathroom, kitchen, drainage and general plumbing problems.";
 
@@ -38,11 +38,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

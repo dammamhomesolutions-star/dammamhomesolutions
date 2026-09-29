@@ -73,7 +73,7 @@ export default function Header({
           <a
             href={buildWhatsAppLink(whatsappMessage)}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring hidden items-center gap-2 rounded-full bg-ink-950 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.03] sm:inline-flex"
           >
             {ctaLabel}
@@ -118,7 +118,7 @@ export default function Header({
           <a
             href={buildWhatsAppLink(whatsappMessage)}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-2 inline-flex items-center justify-center rounded-full bg-ink-950 px-5 py-3 text-sm font-semibold text-sand-50"
           >
             {ctaLabel}

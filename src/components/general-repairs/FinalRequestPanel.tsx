@@ -56,7 +56,7 @@ export default function FinalRequestPanel() {
             <a
               href={buildWhatsAppLink(message)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-6 inline-flex w-full items-center justify-center rounded-full bg-rust-600 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.01]"
             >
               Send a Repair Request
@@ -64,7 +64,7 @@ export default function FinalRequestPanel() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to ask about a home repair.")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-3 inline-flex w-full items-center justify-center rounded-full border border-sand-100/20 px-6 py-3 text-sm font-semibold text-sand-100 hover:bg-sand-100/5"
             >
               WhatsApp Us

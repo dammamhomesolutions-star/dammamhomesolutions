@@ -31,9 +31,9 @@ import WdFinalCta from "@/components/window-door-repair/WdFinalCta";
 import WdFaq from "@/components/window-door-repair/WdFaq";
 
 const pageUrl = `${siteConfig.url}/window-door-glass-repair/`;
-const title = "Window, Door & Glass Repair in Dammam";
+const title = "Window, Door & Glass Repair";
 const description =
-  "Door, window and glass repair for existing homes and properties in Dammam. Get help with damaged glass, hardware, sticking doors, seals, tracks and related issues.";
+  "Door, window and glass repair in Dammam — damaged glass, hardware, sticking doors, seals and tracks for existing homes and properties.";
 
 export const metadata: Metadata = {
   title,
@@ -47,11 +47,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

@@ -61,7 +61,7 @@ export default function KcFinalCta() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a kitchen cabinet issue. ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring inline-flex items-center rounded-full bg-walnut-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
           >
             Send Photos
@@ -69,7 +69,7 @@ export default function KcFinalCta() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a kitchen cabinet repair.")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-steel-300"
           >
             Request Kitchen Repair

@@ -88,7 +88,7 @@ export default function Footer() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to get in touch.")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring rounded-sm hover:text-rust-700"
               >
                 WhatsApp

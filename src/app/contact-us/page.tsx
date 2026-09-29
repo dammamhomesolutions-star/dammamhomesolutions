@@ -6,7 +6,9 @@ import MobileStickyCta from "@/components/MobileStickyCta";
 import LegalBreadcrumb from "@/components/legal/LegalBreadcrumb";
 import ContactHero from "@/components/contact-us/ContactHero";
 import ContactMethods from "@/components/contact-us/ContactMethods";
+import ContactProcess from "@/components/contact-us/ContactProcess";
 import ContactServiceHelp from "@/components/contact-us/ContactServiceHelp";
+import ContactFaq from "@/components/contact-us/ContactFaq";
 
 const pageUrl = `${siteConfig.url}/contact-us/`;
 const title = "Contact Us";
@@ -24,6 +26,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 
@@ -52,7 +55,9 @@ export default function ContactUsPage() {
       <main id="main">
         <ContactHero />
         <ContactMethods />
+        <ContactProcess />
         <ContactServiceHelp />
+        <ContactFaq />
       </main>
       <Footer />
       <MobileStickyCta />

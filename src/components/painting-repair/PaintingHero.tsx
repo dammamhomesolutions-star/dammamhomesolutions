@@ -16,7 +16,7 @@ export default function PaintingHero() {
             Painting &amp; Wall Repair in Dammam
           </h2>
           <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            Before you paint it, understand the surface.
+            Painting &amp; wall repair in Dammam — understand the surface first.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Cracks, stains, peeling paint and worn finishes can require
@@ -35,7 +35,7 @@ export default function PaintingHero() {
             <a
               href={buildWhatsAppLink(heroWhatsAppMessage)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center justify-center gap-2 rounded-full border border-ink-900/20 px-7 py-3.5 text-sm font-semibold text-ink-900 transition-colors hover:bg-ink-900/5"
             >
               WhatsApp Us

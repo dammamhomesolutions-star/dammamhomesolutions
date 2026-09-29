@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="max-w-xl animate-fadeUp">
           <p className="section-label">Dammam · Property repair &amp; maintenance</p>
           <h1 className="mt-5 font-serif text-4xl leading-[1.08] tracking-tight text-ink-950 sm:text-5xl lg:text-[3.4rem]">
-            When your home needs fixing, start here.
+            Property repair and maintenance in Dammam. Start here.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Dammam Home Solutions handles the repairs and maintenance that
@@ -24,7 +24,7 @@ export default function Hero() {
             <a
               href={buildWhatsAppLink(heroWhatsAppMessage)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center justify-center gap-2 rounded-full bg-rust-700 px-7 py-3.5 text-sm font-semibold text-sand-50 shadow-sm transition-transform hover:scale-[1.02]"
             >
               WhatsApp a Repair Request

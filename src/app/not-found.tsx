@@ -37,7 +37,7 @@ export default function NotFound() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I was looking for a page on your website and couldn't find it. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-rust-700"
               >
                 Ask us on WhatsApp

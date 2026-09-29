@@ -25,7 +25,7 @@ import GeneralRepairsFaq from "@/components/general-repairs/GeneralRepairsFaq";
 const pageUrl = `${siteConfig.url}/general-home-repairs/`;
 const title = "General Home Repairs in Dammam";
 const description =
-  "Need a household repair but not sure which service you need? Dammam Home Solutions helps with practical home repairs across Dammam, from minor property issues to multi-repair requests.";
+  "Not sure which service you need? Dammam Home Solutions handles practical home repairs across Dammam, from minor issues to multi-repair requests.";
 
 export const metadata: Metadata = {
   title,
@@ -39,11 +39,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

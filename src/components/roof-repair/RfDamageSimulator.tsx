@@ -93,7 +93,7 @@ export default function RfDamageSimulator() {
               <a
                 href={buildWhatsAppLink(`Hello Dammam Home Solutions, I'm noticing this on my roof: ${active.label}. `)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700"
               >
                 Send us a photo

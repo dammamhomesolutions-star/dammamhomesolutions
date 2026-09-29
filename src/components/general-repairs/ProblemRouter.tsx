@@ -106,7 +106,7 @@ export default function ProblemRouter() {
                 <a
                   href={buildWhatsAppLink(message)}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="focus-ring inline-flex items-center justify-center rounded-full bg-rust-600 px-5 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
                 >
                   Send Details on WhatsApp

@@ -11,7 +11,7 @@ export default function PmHero() {
         </p>
 
         <h1 className="mt-5 max-w-3xl font-serif text-4xl leading-[1.12] tracking-tight text-ink-950 sm:text-5xl">
-          Keep the property working before the small problems become bigger ones.
+          Property maintenance in Dammam — before problems get bigger.
         </h1>
 
         <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-ink-600 sm:text-base">
@@ -26,7 +26,7 @@ export default function PmHero() {
               "Hello Dammam Home Solutions, I'd like to request property maintenance. Here's some context about the property: "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             Request Property Maintenance

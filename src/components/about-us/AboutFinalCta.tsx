@@ -14,7 +14,7 @@ export default function AboutFinalCta() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a repair. Here's what's happening: ")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center rounded-full bg-rust-700 px-7 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
             >
               WhatsApp Dammam Home Solutions

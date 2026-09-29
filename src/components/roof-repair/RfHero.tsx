@@ -32,7 +32,7 @@ function HeroCopy() {
         Roof &amp; rooftop repair
       </p>
       <h1 className="mt-5 max-w-xl font-serif text-4xl leading-[1.12] tracking-tight text-ink-950 sm:text-5xl">
-        Most roof problems start where you can&rsquo;t see them.
+        Roof repair in Dammam — most problems start where you can&rsquo;t see them.
       </h1>
       <p className="mt-5 max-w-md text-[15px] leading-relaxed text-ink-600 sm:text-base">
         A stain on a ceiling, water that collects, a surface that looks
@@ -42,7 +42,7 @@ function HeroCopy() {
         <a
           href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a roof assessment. ")}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
         >
           Request a Roof Assessment
@@ -50,7 +50,7 @@ function HeroCopy() {
         <a
           href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a rooftop issue. ")}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-teal-700"
         >
           Send Photos

@@ -120,7 +120,7 @@ export default function RoomExplorer() {
               <a
                 href={buildWhatsAppLink(active.whatsappMessage)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-5 inline-flex items-center rounded-full bg-rust-700 px-5 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
               >
                 Send This Problem on WhatsApp

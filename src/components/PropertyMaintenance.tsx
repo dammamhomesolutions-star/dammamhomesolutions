@@ -47,7 +47,7 @@ export default function PropertyMaintenance() {
                   "Hello Dammam Home Solutions, I'd like to ask about property maintenance for: "
                 )}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-rust-700"
               >
                 Ask on WhatsApp

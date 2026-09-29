@@ -17,7 +17,7 @@ export default function WlHero() {
             Water leak detection &amp; repair
           </p>
           <h1 className="mt-5 max-w-xl font-serif text-4xl leading-[1.12] tracking-tight text-ink-950 sm:text-5xl">
-            The leak isn&rsquo;t always where the water shows up.
+            Water leak detection in Dammam — not always where it shows up.
           </h1>
           <p className="mt-5 max-w-md text-[15px] leading-relaxed text-ink-600 sm:text-base">
             A damp patch, a ceiling stain, a water bill that doesn&rsquo;t add
@@ -28,7 +28,7 @@ export default function WlHero() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a water leak assessment. ")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
             >
               Request a Leak Assessment
@@ -36,7 +36,7 @@ export default function WlHero() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a possible water leak. ")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-copper-700"
             >
               Send Photos

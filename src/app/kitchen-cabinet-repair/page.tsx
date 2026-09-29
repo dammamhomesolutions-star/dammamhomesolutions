@@ -32,7 +32,7 @@ import KcFaq from "@/components/kitchen-cabinet-repair/KcFaq";
 const pageUrl = `${siteConfig.url}/kitchen-cabinet-repair/`;
 const title = "Kitchen Cabinet Repair in Dammam";
 const description =
-  "Kitchen cabinet repair in Dammam for damaged doors, hinges, handles, drawers, panels and everyday joinery problems. Send photos of the cabinet for assessment.";
+  "Kitchen cabinet repair in Dammam for damaged doors, hinges, handles, drawers and panels. Send photos of the cabinet for assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -46,11 +46,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

@@ -56,7 +56,7 @@ export default function WaterproofingRequestPanel() {
             <a
               href={buildWhatsAppLink(message)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-6 inline-flex w-full items-center justify-center rounded-full bg-rust-700 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.01]"
             >
               WhatsApp About Waterproofing

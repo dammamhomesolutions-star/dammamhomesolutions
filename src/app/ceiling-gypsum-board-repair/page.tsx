@@ -26,9 +26,9 @@ import CrFinalCta from "@/components/ceiling-repair/CrFinalCta";
 import CrFaq from "@/components/ceiling-repair/CrFaq";
 
 const pageUrl = `${siteConfig.url}/ceiling-gypsum-board-repair/`;
-const title = "Ceiling & Gypsum Board Repair in Dammam";
+const title = "Ceiling & Gypsum Repair in Dammam";
 const description =
-  "Ceiling and gypsum board repair for cracks, holes, damaged sections and visible surface problems in Dammam homes, villas and apartments. Send photos for assessment.";
+  "Ceiling and gypsum board repair in Dammam for cracks, holes and damaged sections in homes, villas and apartments. Send photos for assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -42,11 +42,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

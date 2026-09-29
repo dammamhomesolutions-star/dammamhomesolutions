@@ -13,7 +13,7 @@ export default function RepairHero() {
             Dammam · General home repairs
           </p>
           <h1 className="mt-4 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            Something needs fixing. Start with the problem.
+            General home repairs in Dammam — start with the problem.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             You don&rsquo;t need to know which trade you need. Tell us
@@ -37,7 +37,7 @@ export default function RepairHero() {
           </div>
 
           <p className="mt-8 text-sm text-ink-500">
-            <a href={buildWhatsAppLink(heroWhatsAppMessage)} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-ink-800">
+            <a href={buildWhatsAppLink(heroWhatsAppMessage)} target="_blank" rel="nofollow noopener noreferrer" className="underline underline-offset-4 hover:text-ink-800">
               Or WhatsApp us directly
             </a>{" "}
             if you&rsquo;d rather just describe it.

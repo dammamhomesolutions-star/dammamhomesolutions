@@ -30,7 +30,7 @@ import GdFaq from "@/components/gate-garage-repair/GdFaq";
 const pageUrl = `${siteConfig.url}/gate-garage-door-repair/`;
 const title = "Gate & Garage Door Repair in Dammam";
 const description =
-  "Gate and garage door repair in Dammam for sticking, misaligned, noisy or damaged doors and gates. Send photos or a short video of the affected area for assessment.";
+  "Gate and garage door repair in Dammam for sticking, misaligned, noisy or damaged doors and gates. Send photos for an assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -44,11 +44,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

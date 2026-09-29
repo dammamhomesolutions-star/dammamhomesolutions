@@ -72,7 +72,7 @@ export default function WlTraceBack() {
               <a
                 href={buildWhatsAppLink(`Hello Dammam Home Solutions, I've noticed this: ${active.label}. `)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-ink-950 underline decoration-copper-600 decoration-2 underline-offset-4 hover:text-copper-700"
               >
                 Tell us what you noticed

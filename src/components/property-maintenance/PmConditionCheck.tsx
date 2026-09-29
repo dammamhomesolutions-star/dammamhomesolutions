@@ -123,7 +123,7 @@ export default function PmConditionCheck() {
             <a
               href={buildWhatsAppLink(message)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className={`focus-ring mt-6 inline-flex w-full items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition-colors ${
                 mentioned.length > 0
                   ? "bg-ink-950 text-sand-50 hover:bg-ink-900"

@@ -31,7 +31,7 @@ import RfFaq from "@/components/roof-repair/RfFaq";
 const pageUrl = `${siteConfig.url}/roof-repair/`;
 const title = "Roof & Rooftop Repair in Dammam";
 const description =
-  "Roof and rooftop repair in Dammam for surface changes, water accumulation, drainage concerns, cracks and edge or parapet issues. Send photos for an assessment.";
+  "Roof and rooftop repair in Dammam for surface changes, water accumulation, drainage concerns and cracks. Send photos for an assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -45,11 +45,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

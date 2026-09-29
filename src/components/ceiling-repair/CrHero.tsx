@@ -11,7 +11,7 @@ export default function CrHero() {
         </p>
 
         <h1 className="mt-5 max-w-2xl font-serif text-4xl leading-[1.12] tracking-tight text-ink-950 sm:text-5xl">
-          Look up. Something changed.
+          Ceiling &amp; gypsum board repair in Dammam. Look up — something changed.
         </h1>
 
         <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-ink-600 sm:text-base">
@@ -30,7 +30,7 @@ export default function CrHero() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a ceiling repair. Here's what I've noticed: ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-rust-700"
           >
             Request a Repair

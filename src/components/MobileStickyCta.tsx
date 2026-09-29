@@ -14,7 +14,7 @@ export default function MobileStickyCta({
       <a
         href={buildWhatsAppLink(whatsappMessage)}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="nofollow noopener noreferrer"
         className="focus-ring flex w-full items-center justify-center rounded-full bg-rust-700 px-5 py-3.5 text-sm font-semibold text-sand-50"
       >
         {label}

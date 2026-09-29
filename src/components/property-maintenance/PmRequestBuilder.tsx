@@ -268,7 +268,7 @@ export default function PmRequestBuilder() {
                 <a
                   href={buildWhatsAppLink(message)}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="focus-ring ml-auto inline-flex items-center rounded-full bg-moss-600 px-6 py-3 text-sm font-semibold text-sand-50"
                 >
                   Send Maintenance Request

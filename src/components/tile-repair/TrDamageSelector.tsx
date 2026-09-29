@@ -117,7 +117,7 @@ export default function TrDamageSelector() {
               <a
                 href={buildWhatsAppLink(`Hello Dammam Home Solutions, I'm noticing this on a tiled surface: ${active.label}. `)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700"
               >
                 Show Us the Tile

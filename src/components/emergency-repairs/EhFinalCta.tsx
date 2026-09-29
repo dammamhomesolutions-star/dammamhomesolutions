@@ -24,7 +24,7 @@ export default function EhFinalCta() {
             <a
               href={buildWhatsAppLink("Hello Dammam Home Solutions, something has come up at my property. Here's what happened: ")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-ember-700"
             >
               WhatsApp Us

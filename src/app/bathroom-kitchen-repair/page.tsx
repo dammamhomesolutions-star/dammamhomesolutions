@@ -26,7 +26,7 @@ import RoomFaq from "@/components/bathroom-kitchen-repair/RoomFaq";
 const pageUrl = `${siteConfig.url}/bathroom-kitchen-repair/`;
 const title = "Bathroom & Kitchen Repair in Dammam";
 const description =
-  "Dammam Home Solutions handles bathroom and kitchen repairs in Dammam, including plumbing, fixtures, drainage, tiles, cabinets, doors and general repair work.";
+  "Bathroom and kitchen repair in Dammam — plumbing, fixtures, drainage, tiles, cabinets, doors and general repair work for these rooms.";
 
 export const metadata: Metadata = {
   title,
@@ -40,11 +40,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

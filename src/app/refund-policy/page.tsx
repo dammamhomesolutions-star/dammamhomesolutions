@@ -93,7 +93,7 @@ export default function RefundPolicyPage() {
                 "Hello Dammam Home Solutions, I have a question about a cancellation or a completed job. "
               )}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-2 inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
             >
               Message Us on WhatsApp

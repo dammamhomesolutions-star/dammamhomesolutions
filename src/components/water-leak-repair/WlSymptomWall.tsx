@@ -110,7 +110,7 @@ export default function WlSymptomWall() {
                   <a
                     href={buildWhatsAppLink("Hello Dammam Home Solutions, I'm not sure what's causing this, but here's what I've noticed: ")}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="focus-ring mt-2 inline-flex items-center gap-1 text-xs font-semibold text-ink-950 underline decoration-copper-600 decoration-2 underline-offset-4 hover:text-copper-700"
                   >
                     Send a photo <span aria-hidden="true">→</span>

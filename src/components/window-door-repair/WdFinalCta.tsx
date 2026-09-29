@@ -43,7 +43,7 @@ export default function WdFinalCta() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a door or window issue. ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring inline-flex items-center rounded-full bg-glass-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
           >
             Send Photos
@@ -51,7 +51,7 @@ export default function WdFinalCta() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a door or window repair.")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-glass-300"
           >
             Request Repair

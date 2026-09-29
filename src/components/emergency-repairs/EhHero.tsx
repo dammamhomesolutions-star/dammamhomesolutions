@@ -11,7 +11,7 @@ export default function EhHero() {
         </p>
 
         <h1 className="mt-5 max-w-2xl font-serif text-4xl leading-[1.12] tracking-tight text-sand-50 sm:text-5xl">
-          Something went wrong at home? Start here.
+          Emergency home repairs in Dammam — something went wrong? Start here.
         </h1>
 
         <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-ink-300 sm:text-base">
@@ -31,7 +31,7 @@ export default function EhHero() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, something has come up at my property. Here's what happened: ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-ember-500"
           >
             WhatsApp Us

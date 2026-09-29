@@ -34,7 +34,7 @@ export default function CracksSection() {
             "Hello Dammam Home Solutions, I'd like guidance on a crack in a wall or ceiling. Here's what I'm seeing: "
           )}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-8 inline-flex items-center rounded-full bg-rust-600 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
         >
           Send a Photo for Initial Guidance

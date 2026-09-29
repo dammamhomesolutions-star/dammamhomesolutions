@@ -32,7 +32,7 @@ export default function WtFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a water tank cleaning. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex items-center rounded-full bg-mint-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
               >
                 Request Tank Cleaning
@@ -40,7 +40,7 @@ export default function WtFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send a photo of my water tank. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-mint-400"
               >
                 Send a Photo

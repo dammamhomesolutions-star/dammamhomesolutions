@@ -22,9 +22,9 @@ import WaterproofingRequestPanel from "@/components/waterproofing/WaterproofingR
 import WaterproofingFaq from "@/components/waterproofing/WaterproofingFaq";
 
 const pageUrl = `${siteConfig.url}/waterproofing/`;
-const title = "Waterproofing & Water Leak Protection in Dammam";
+const title = "Waterproofing in Dammam";
 const description =
-  "Dammam Home Solutions helps with waterproofing, moisture problems and water-leak-related property repairs in Dammam, including roofs, wet areas and affected surfaces.";
+  "Waterproofing and moisture-related repairs in Dammam, including roofs, wet areas and affected surfaces. Send photos for an assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -38,11 +38,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

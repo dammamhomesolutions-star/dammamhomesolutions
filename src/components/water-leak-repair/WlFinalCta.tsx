@@ -32,7 +32,7 @@ export default function WlFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a water leak assessment. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex items-center rounded-full bg-copper-600 px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.02]"
               >
                 Request a Leak Assessment
@@ -40,7 +40,7 @@ export default function WlFinalCta() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send photos of a possible water leak. ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring text-sm font-semibold text-sand-100 underline underline-offset-4 hover:text-copper-400"
               >
                 Send Photos

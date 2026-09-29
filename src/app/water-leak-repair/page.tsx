@@ -21,9 +21,9 @@ import WlFinalCta from "@/components/water-leak-repair/WlFinalCta";
 import WlFaq from "@/components/water-leak-repair/WlFaq";
 
 const pageUrl = `${siteConfig.url}/water-leak-repair/`;
-const title = "Water Leak Detection & Repair in Dammam";
+const title = "Water Leak Detection in Dammam";
 const description =
-  "Water leak detection and repair in Dammam for damp patches, ceiling stains, unexplained water bills and hidden leaks behind walls or under floors. Send photos for an assessment.";
+  "Water leak detection and repair in Dammam for damp patches, ceiling stains and hidden leaks behind walls or under floors. Send photos for an assessment.";
 
 export const metadata: Metadata = {
   title,
@@ -37,11 +37,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

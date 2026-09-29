@@ -75,7 +75,7 @@ export default function MoistureLocationSelector() {
                       <a
                         href={buildWhatsAppLink(area.whatsappMessage)}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="nofollow noopener noreferrer"
                         className="focus-ring inline-flex items-center justify-center rounded-full bg-rust-700 px-5 py-3 text-center text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02] sm:w-56"
                       >
                         Send Details on WhatsApp

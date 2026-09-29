@@ -19,7 +19,7 @@ export default function AboutHero() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to know more about your services. ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             Get in Touch

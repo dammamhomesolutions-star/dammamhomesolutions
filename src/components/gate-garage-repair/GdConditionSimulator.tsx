@@ -123,7 +123,7 @@ export default function GdConditionSimulator() {
               <a
                 href={buildWhatsAppLink(`Hello Dammam Home Solutions, I'm noticing this issue: ${active.label}. `)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700"
               >
                 Send us a photo

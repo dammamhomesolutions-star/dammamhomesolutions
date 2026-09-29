@@ -37,7 +37,7 @@ export default function WaterOrSurfaceDecision() {
                 key={b.trigger}
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, I have a bathroom problem but I'm not sure if it's plumbing or waterproofing. Here's what I'm seeing: ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring group flex flex-col gap-1 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
               >
                 <span className="text-[15px] text-ink-800">{b.trigger}</span>

@@ -11,7 +11,7 @@ export default function WdHero() {
         </p>
 
         <h1 className="mt-5 max-w-2xl font-serif text-4xl leading-[1.12] tracking-tight text-ink-950 sm:text-5xl">
-          When the door or window stops working properly, you notice.
+          Window, door &amp; glass repair in Dammam — when it stops working.
         </h1>
 
         <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-ink-600 sm:text-base">
@@ -31,7 +31,7 @@ export default function WdHero() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to request a door or window repair. Here's what I've noticed: ")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring text-sm font-semibold text-ink-800 underline underline-offset-4 hover:text-glass-700"
           >
             Request a Repair

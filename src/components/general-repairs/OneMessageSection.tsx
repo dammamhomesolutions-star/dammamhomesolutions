@@ -35,7 +35,7 @@ export default function OneMessageSection() {
               <a
                 href={buildWhatsAppLink("Hello Dammam Home Solutions, here's my repair request: ")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex w-full items-center justify-center rounded-full bg-rust-700 px-7 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02] lg:w-auto"
               >
                 Send My Repair Request

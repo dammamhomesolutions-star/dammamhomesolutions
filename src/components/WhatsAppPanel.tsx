@@ -43,7 +43,7 @@ export default function WhatsAppPanel() {
                   "Hello Dammam Home Solutions, I'd like to request a repair. Here's what's happening: "
                 )}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-full bg-rust-700 px-7 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02] lg:w-auto"
               >
                 WhatsApp Dammam Home Solutions

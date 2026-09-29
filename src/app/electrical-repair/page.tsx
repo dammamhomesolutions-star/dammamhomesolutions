@@ -21,9 +21,9 @@ import ElectricalRequestPanel from "@/components/electrical-repair/ElectricalReq
 import ElectricalFaq from "@/components/electrical-repair/ElectricalFaq";
 
 const pageUrl = `${siteConfig.url}/electrical-repair/`;
-const title = "Electrical Repair & Maintenance in Dammam";
+const title = "Electrical Repair in Dammam";
 const description =
-  "Dammam Home Solutions handles residential electrical repair and maintenance in Dammam, including lighting, switches, sockets and everyday electrical faults.";
+  "Electrical repair and maintenance in Dammam — lighting, switches, sockets and everyday electrical faults in homes and apartments.";
 
 export const metadata: Metadata = {
   title,
@@ -37,11 +37,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

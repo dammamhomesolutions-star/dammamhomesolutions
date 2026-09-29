@@ -36,7 +36,7 @@ export default function EhLandlordFlow() {
         <a
           href={buildWhatsAppLink("Hello Dammam Home Solutions, I manage a property and need to report a sudden issue. Here are the details: ")}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-6 inline-flex items-center rounded-full border border-ink-900/20 px-6 py-3 text-sm font-semibold text-ink-900 transition-colors hover:border-ember-600 hover:text-ember-700"
         >
           Report a Property Issue

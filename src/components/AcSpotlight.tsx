@@ -89,7 +89,7 @@ export default function AcSpotlight() {
                 "Hello Dammam Home Solutions, my AC needs attention. Here's the issue: "
               )}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center rounded-full border border-ink-900/20 px-6 py-3 text-sm font-medium text-ink-800 hover:bg-ink-900/5"
             >
               WhatsApp about AC

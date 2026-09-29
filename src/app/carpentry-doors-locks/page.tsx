@@ -24,9 +24,9 @@ import CarpentryRequestPanel from "@/components/carpentry-repair/CarpentryReques
 import CarpentryFaq from "@/components/carpentry-repair/CarpentryFaq";
 
 const pageUrl = `${siteConfig.url}/carpentry-doors-locks/`;
-const title = "Carpentry, Door & Lock Repair in Dammam";
+const title = "Carpentry & Door Repair in Dammam";
 const description =
-  "Dammam Home Solutions handles residential door, lock, hardware and carpentry repairs in Dammam, including doors, handles, hinges, cabinets and minor woodwork.";
+  "Carpentry, door, lock and hardware repair in Dammam — doors, handles, hinges, cabinets and minor woodwork for homes and villas.";
 
 export const metadata: Metadata = {
   title,
@@ -40,11 +40,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   twitter: {
     card: "summary",
     title: `${title} | ${siteConfig.name}`,
     description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
 };
 

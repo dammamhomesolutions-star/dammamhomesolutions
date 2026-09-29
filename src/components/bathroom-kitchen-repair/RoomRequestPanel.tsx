@@ -76,7 +76,7 @@ export default function RoomRequestPanel() {
             <a
               href={buildWhatsAppLink(message)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring mt-6 inline-flex w-full items-center justify-center rounded-full bg-rust-600 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.01]"
             >
               WhatsApp for Home Repair

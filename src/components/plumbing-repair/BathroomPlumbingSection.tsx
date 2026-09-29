@@ -41,7 +41,7 @@ export default function BathroomPlumbingSection() {
             "Hello Dammam Home Solutions, I have a bathroom plumbing problem. Here's what's happening: "
           )}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           className="focus-ring mt-8 inline-flex items-center rounded-full border border-ink-900/20 px-6 py-3 text-sm font-semibold text-ink-900 hover:bg-ink-900/5"
         >
           WhatsApp about a bathroom issue

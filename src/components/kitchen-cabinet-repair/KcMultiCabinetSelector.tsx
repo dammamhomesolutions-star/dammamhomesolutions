@@ -73,7 +73,7 @@ export default function KcMultiCabinetSelector() {
                 : "Hello Dammam Home Solutions, I have a few cabinet areas in my kitchen that need attention. "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             Send Kitchen Repair Request

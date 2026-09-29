@@ -16,7 +16,7 @@ export default function CarpentryHero() {
             Carpentry, Door &amp; Lock Repair in Dammam
           </h2>
           <h1 className="mt-5 font-serif text-4xl leading-[1.1] tracking-tight text-ink-950 sm:text-5xl">
-            If it doesn&rsquo;t close properly, something needs attention.
+            Carpentry &amp; lock repair in Dammam — something needs attention.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-700">
             Doors, locks, hinges, handles and household woodwork can
@@ -35,7 +35,7 @@ export default function CarpentryHero() {
             <a
               href={buildWhatsAppLink(heroWhatsAppMessage)}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="focus-ring inline-flex items-center justify-center gap-2 rounded-full border border-ink-900/20 px-7 py-3.5 text-sm font-semibold text-ink-900 transition-colors hover:bg-ink-900/5"
             >
               WhatsApp Us

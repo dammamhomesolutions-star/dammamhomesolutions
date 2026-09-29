@@ -46,7 +46,7 @@ export default function RfRoofTypeVisualizer() {
                   <a
                     href={buildWhatsAppLink(`Hello Dammam Home Solutions, I have a question about a ${r.label.toLowerCase()}. `)}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="focus-ring mt-2 inline-flex items-center gap-1 text-xs font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700"
                   >
                     Ask about this roof type <span aria-hidden="true">→</span>

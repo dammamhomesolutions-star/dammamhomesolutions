@@ -25,7 +25,7 @@ export default function BeforeYouContactSection() {
           <a
             href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to send a photo of a door, lock or carpentry problem.")}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-6 inline-flex items-center rounded-full bg-rust-700 px-6 py-3 text-sm font-semibold text-sand-50 transition-transform hover:scale-[1.02]"
           >
             WhatsApp a Photo

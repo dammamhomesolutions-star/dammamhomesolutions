@@ -101,7 +101,7 @@ export default function RfWhatChanged() {
           <a
             href={buildWhatsAppLink(`Hello Dammam Home Solutions, here's what I noticed: ${active.label}. `)}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700"
           >
             Tell us what you noticed

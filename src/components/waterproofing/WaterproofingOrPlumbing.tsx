@@ -39,7 +39,7 @@ export default function WaterproofingOrPlumbing() {
               "Hello Dammam Home Solutions, I'm not sure if my problem is plumbing or waterproofing. Here's what I'm seeing: "
             )}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="focus-ring group rounded-2xl border border-ink-900/10 bg-sand-50 p-7 transition-colors hover:border-ink-900/25"
           >
             <p className="text-sm font-medium text-ink-500">Not sure which one it is</p>
