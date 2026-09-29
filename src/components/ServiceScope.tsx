@@ -22,6 +22,7 @@ const insideHome: ScopeItem[] = [
 const protectingProperty: ScopeItem[] = [
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water leakage repair", href: "/water-leak-repair/" },
+  { label: "Water tank cleaning", href: "/water-tank-cleaning/" },
   { label: "Damp & moisture issues" },
   { label: "Roof & rooftop repair", href: "/roof-repair/" },
 ];
