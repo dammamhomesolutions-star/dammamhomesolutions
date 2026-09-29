@@ -39,28 +39,13 @@ export default function FloorPlanSelector() {
           <p className="mt-4 text-ink-600">Tap every room where you&rsquo;ve noticed a flooring problem.</p>
         </div>
 
-        <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-md border border-concrete-900/10 bg-concrete-100 p-3">
-          <svg viewBox="0 0 340 170" className="h-auto w-full" role="group" aria-label="Floor plan">
+        <div className="relative mx-auto mt-10 max-w-2xl overflow-hidden rounded-md border border-concrete-900/10 bg-concrete-100 p-3">
+          <svg viewBox="0 0 340 170" className="h-auto w-full" aria-hidden="true">
             {flRoomContexts.map((room: FlRoomContext) => {
               const box = layout[room.id];
               const isSelected = selected.has(room.id);
               return (
-                <g
-                  key={room.id}
-                  role="button"
-                  tabIndex={0}
-                  aria-pressed={isSelected}
-                  aria-label={room.label}
-                  onClick={() => toggle(room.id)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      toggle(room.id);
-                    }
-                  }}
-                  className="cursor-pointer focus:outline-none"
-                  style={{ outline: "none" }}
-                >
+                <g key={room.id}>
                   <rect
                     x={box.x}
                     y={box.y}
@@ -78,6 +63,27 @@ export default function FloorPlanSelector() {
               );
             })}
           </svg>
+
+          {flRoomContexts.map((room: FlRoomContext) => {
+            const box = layout[room.id];
+            const isSelected = selected.has(room.id);
+            return (
+              <button
+                key={room.id}
+                type="button"
+                aria-pressed={isSelected}
+                onClick={() => toggle(room.id)}
+                style={{
+                  left: `${(box.x / 340) * 100}%`,
+                  top: `${(box.y / 170) * 100}%`,
+                  width: `${(box.w / 340) * 100}%`,
+                  height: `${(box.h / 170) * 100}%`,
+                }}
+                className="focus-ring absolute"
+                aria-label={room.label}
+              />
+            );
+          })}
         </div>
 
         <div className="mx-auto mt-6 flex max-w-2xl flex-wrap items-center justify-between gap-4 rounded-md border border-concrete-900/10 bg-sand-50 px-5 py-4">

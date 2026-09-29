@@ -20,6 +20,7 @@ const serviceLinks = [
   { label: "Window, Door & Glass Repair", href: "/window-door-glass-repair/" },
   { label: "Kitchen Cabinet Repair", href: "/kitchen-cabinet-repair/" },
   { label: "Flooring Repair", href: "/flooring-repair/" },
+  { label: "Gate & Garage Door Repair", href: "/gate-garage-door-repair/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },

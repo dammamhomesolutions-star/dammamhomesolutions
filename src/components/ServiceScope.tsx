@@ -16,6 +16,7 @@ const insideHome: ScopeItem[] = [
   { label: "Tile & grout repair", href: "/tile-repair-grout/" },
   { label: "Ceiling & gypsum board repair", href: "/ceiling-gypsum-board-repair/" },
   { label: "Flooring repair", href: "/flooring-repair/" },
+  { label: "Gate & garage door repair", href: "/gate-garage-door-repair/" },
 ];
 
 const protectingProperty: ScopeItem[] = [
