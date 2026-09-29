@@ -1,10 +1,16 @@
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const navLinks = [
-  { label: "Services", href: "#services" },
+  { label: "Services", href: "/#services" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
-  { label: "About", href: "#why-different" },
-  { label: "Contact", href: "#contact" },
+  { label: "About Us", href: "/about-us/" },
+  { label: "Contact Us", href: "/contact-us/" },
+];
+
+const legalLinks = [
+  { label: "Privacy Policy", href: "/privacy-policy/" },
+  { label: "Terms & Conditions", href: "/terms-conditions/" },
+  { label: "Refund & Cancellation Policy", href: "/refund-policy/" },
 ];
 
 const serviceLinks = [
@@ -106,11 +112,20 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="container-edge mt-12 border-t border-ink-900/10 pt-6">
+      <div className="container-edge mt-12 flex flex-col gap-4 border-t border-ink-900/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs text-ink-500">
           © {new Date().getFullYear()} Dammam Home Solutions. All rights
           reserved.
         </p>
+        <ul className="flex flex-wrap gap-x-5 gap-y-2">
+          {legalLinks.map((l) => (
+            <li key={l.href}>
+              <a href={l.href} className="focus-ring rounded-sm text-xs text-ink-500 hover:text-rust-700">
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </footer>
   );

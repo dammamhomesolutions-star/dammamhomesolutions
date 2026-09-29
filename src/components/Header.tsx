@@ -8,8 +8,8 @@ const navLinks = [
   { label: "Services", href: "/#services" },
   { label: "Home Repairs", href: "/#home-repairs" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
-  { label: "About", href: "/#why-different" },
-  { label: "Contact", href: "/#contact" },
+  { label: "About", href: "/about-us/" },
+  { label: "Contact", href: "/contact-us/" },
 ];
 
 interface HeaderProps {
