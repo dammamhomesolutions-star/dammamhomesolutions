@@ -23,7 +23,7 @@ const protectingProperty: ScopeItem[] = [
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water leakage repair", href: "/water-leak-repair/" },
   { label: "Damp & moisture issues" },
-  { label: "Roof-related repairs" },
+  { label: "Roof & rooftop repair", href: "/roof-repair/" },
 ];
 
 const keepingRunning: ScopeItem[] = [
