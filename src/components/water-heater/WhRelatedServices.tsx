@@ -11,7 +11,9 @@ export default function WhRelatedServices() {
         <p className="mt-4 text-sm leading-relaxed text-ink-700">
           If the issue involves the wider pipework, see our{" "}
           <Link href="/plumbing-repair/" className={linkClass}>plumbing services</Link>
-          . Water stains on a ceiling under a heater are traced through{" "}
+          . Weak pressure at every tap, hot and cold, is usually a{" "}
+          <Link href="/water-pump-repair-dammam/" className={linkClass}>water pump or pressure</Link>{" "}
+          issue rather than the heater. Water stains on a ceiling under a heater are traced through{" "}
           <Link href="/water-leak-repair/" className={linkClass}>water leak repair</Link>
           , and the gypsum itself is repaired through{" "}
           <Link href="/ceiling-gypsum-board-repair/" className={linkClass}>ceiling repair</Link>

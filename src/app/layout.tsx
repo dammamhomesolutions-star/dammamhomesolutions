@@ -82,6 +82,7 @@ export default function RootLayout({
     "ac-duct-cleaning-dammam",
     "water-heater-repair-installation-dammam",
     "drain-unblocking-sewer-line-cleaning-dammam",
+    "water-pump-repair-dammam",
   ];
 
   const jsonLd = {

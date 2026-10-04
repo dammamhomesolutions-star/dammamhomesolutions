@@ -7,6 +7,7 @@ const insideHome: ScopeItem[] = [
   { label: "Plumbing", href: "/plumbing-repair/" },
   { label: "Water heater repair & installation", href: "/water-heater-repair-installation-dammam/" },
   { label: "Drain unblocking & sewer cleaning", href: "/drain-unblocking-sewer-line-cleaning-dammam/" },
+  { label: "Water pump repair", href: "/water-pump-repair-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "AC & HVAC", href: "/ac-repair/" },
   { label: "AC installation", href: "/ac-installation-dammam/" },

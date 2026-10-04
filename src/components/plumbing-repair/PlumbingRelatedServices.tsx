@@ -10,6 +10,11 @@ export default function PlumbingRelatedServices() {
           <Link href="/water-heater-repair-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
             water heater repair &amp; installation
           </Link>
+          . Weak pressure across the house, or a pump that won&rsquo;t stop
+          running, falls under{" "}
+          <Link href="/water-pump-repair-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
+            water pump repair
+          </Link>
           . Drains that keep blocking, or several backing up at once, are
           covered by{" "}
           <Link href="/drain-unblocking-sewer-line-cleaning-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">

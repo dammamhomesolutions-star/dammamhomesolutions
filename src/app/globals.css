@@ -125,6 +125,17 @@ body {
   .wh-glow { animation: none; opacity: 0.8; }
 }
 
+/* Water pump page: pressure gauge needle settling back and forth. */
+@keyframes wp-needle {
+  0%, 100% { transform: rotate(-35deg); }
+  45% { transform: rotate(25deg); }
+  60% { transform: rotate(15deg); }
+}
+.wp-needle { animation: wp-needle 5s ease-in-out infinite; transform-box: view-box; }
+@media (prefers-reduced-motion: reduce) {
+  .wp-needle { animation: none; transform: rotate(15deg); }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:
