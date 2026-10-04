@@ -35,6 +35,7 @@ const serviceLinks = [
   { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
   { label: "Fire & Smoke Damage Restoration", href: "/fire-smoke-damage-restoration-dammam/" },
+  { label: "Pest Control", href: "/pest-control-dammam/" },
 ];
 
 export default function Footer() {

@@ -33,6 +33,7 @@ const keepingRunning: ScopeItem[] = [
   { label: "General maintenance", href: "/property-maintenance/" },
   { label: "Preventive maintenance", href: "/property-maintenance/" },
   { label: "Property maintenance support", href: "/property-maintenance/" },
+  { label: "Pest control", href: "/pest-control-dammam/" },
   { label: "General home repairs", href: "/general-home-repairs/" },
   { label: "Emergency home repairs", href: "/emergency-home-repairs/" },
 ];
