@@ -25,6 +25,7 @@ const protectingProperty: ScopeItem[] = [
   { label: "Water tank cleaning", href: "/water-tank-cleaning/" },
   { label: "Damp & moisture issues" },
   { label: "Roof & rooftop repair", href: "/roof-repair/" },
+  { label: "Fire & smoke damage restoration", href: "/fire-smoke-damage-restoration-dammam/" },
 ];
 
 const keepingRunning: ScopeItem[] = [

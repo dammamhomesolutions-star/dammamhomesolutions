@@ -73,6 +73,7 @@ export default function RootLayout({
     "roof-repair",
     "water-leak-repair",
     "water-tank-cleaning",
+    "fire-smoke-damage-restoration-dammam",
   ];
 
   const jsonLd = {

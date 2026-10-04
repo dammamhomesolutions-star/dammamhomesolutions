@@ -37,6 +37,36 @@ body {
   @apply text-xs font-semibold uppercase tracking-[0.18em] text-rust-700;
 }
 
+/* Fire & smoke restoration page: slow smoke drift, icon redraw, flow lines. */
+@keyframes fs-drift {
+  0% { transform: translate3d(-4%, 0, 0) scale(1); opacity: 0.55; }
+  50% { transform: translate3d(3%, -3%, 0) scale(1.06); opacity: 0.8; }
+  100% { transform: translate3d(-4%, 0, 0) scale(1); opacity: 0.55; }
+}
+.fs-drift { animation: fs-drift 18s ease-in-out infinite; }
+.fs-drift-slow { animation: fs-drift 26s ease-in-out infinite reverse; }
+
+@keyframes fs-redraw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.group:hover .fs-icon path,
+.group:focus-visible .fs-icon path {
+  stroke-dasharray: 1;
+  animation: fs-redraw 0.7s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@keyframes fs-flow {
+  to { stroke-dashoffset: -24; }
+}
+.fs-flow { stroke-dasharray: 6 6; animation: fs-flow 1.6s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fs-drift,
+  .fs-drift-slow,
+  .fs-flow { animation: none; }
+}
+
 /* Faint architectural grid, used only on the property-maintenance page. */
 .blueprint-grid {
   background-image:
