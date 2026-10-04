@@ -13,6 +13,7 @@ const insideHome: ScopeItem[] = [
   { label: "AC installation", href: "/ac-installation-dammam/" },
   { label: "AC duct cleaning", href: "/ac-duct-cleaning-dammam/" },
   { label: "Appliance repair", href: "/appliance-repair-dammam/" },
+  { label: "CCTV & intercom installation", href: "/cctv-intercom-installation-dammam/" },
   { label: "Painting", href: "/painting-wall-repair/" },
   { label: "Carpentry", href: "/carpentry-doors-locks/" },
   { label: "Bathroom repairs", href: "/bathroom-kitchen-repair/" },

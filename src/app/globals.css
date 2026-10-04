@@ -148,6 +148,21 @@ body {
   .ap-drum, .ap-drift { animation: none; }
 }
 
+/* CCTV page: camera coverage panning, recording / signal pulse. */
+@keyframes cv-pan {
+  0%, 100% { transform: rotate(-8deg); }
+  50% { transform: rotate(8deg); }
+}
+@keyframes cv-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+.cv-pan { animation: cv-pan 7s ease-in-out infinite; transform-box: view-box; }
+.cv-pulse { animation: cv-pulse 1.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .cv-pan, .cv-pulse { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

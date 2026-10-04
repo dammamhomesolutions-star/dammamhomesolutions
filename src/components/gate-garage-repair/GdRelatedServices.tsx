@@ -18,7 +18,12 @@ export default function GdRelatedServices() {
           <Link href="/electrical-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             electrical repair
           </Link>{" "}
-          can help alongside this service. A wider set of issues across the
+          can help alongside this service. To see and talk to visitors at the
+          gate — or open it from inside — see{" "}
+          <Link href="/cctv-intercom-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
+            CCTV &amp; intercom installation
+          </Link>
+          . A wider set of issues across the
           property is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             property maintenance

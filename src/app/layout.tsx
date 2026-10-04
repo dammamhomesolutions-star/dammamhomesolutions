@@ -84,6 +84,7 @@ export default function RootLayout({
     "drain-unblocking-sewer-line-cleaning-dammam",
     "water-pump-repair-dammam",
     "appliance-repair-dammam",
+    "cctv-intercom-installation-dammam",
   ];
 
   const jsonLd = {
