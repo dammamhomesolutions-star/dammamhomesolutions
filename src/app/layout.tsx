@@ -80,6 +80,7 @@ export default function RootLayout({
     "sofa-carpet-cleaning-dammam",
     "ac-installation-dammam",
     "ac-duct-cleaning-dammam",
+    "water-heater-repair-installation-dammam",
   ];
 
   const jsonLd = {

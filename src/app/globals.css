@@ -115,6 +115,16 @@ body {
   .dc-bar { animation: none; opacity: 0; }
 }
 
+/* Water heater page: heating element glow. */
+@keyframes wh-glow {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+.wh-glow { animation: wh-glow 2.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .wh-glow { animation: none; opacity: 0.8; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:
