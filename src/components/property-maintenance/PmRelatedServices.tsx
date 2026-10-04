@@ -18,7 +18,12 @@ export default function PmRelatedServices() {
           <Link href="/electrical-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-moss-600 decoration-2 underline-offset-4 hover:text-moss-700">
             electrical repair
           </Link>{" "}
-          each cover faults in those systems directly, and anything urgent
+          each cover faults in those systems directly. When rooms need
+          updating rather than upkeep, see{" "}
+          <Link href="/home-renovation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-moss-600 decoration-2 underline-offset-4 hover:text-moss-700">
+            home renovation
+          </Link>
+          , and anything urgent
           falls under{" "}
           <Link href="/emergency-home-repairs/" className="focus-ring font-semibold text-ink-950 underline decoration-moss-600 decoration-2 underline-offset-4 hover:text-moss-700">
             emergency home repairs

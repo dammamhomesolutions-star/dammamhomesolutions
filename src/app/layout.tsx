@@ -94,6 +94,7 @@ export default function RootLayout({
     "outdoor-boundary-wall-repair-dammam",
     "swimming-pool-repair-maintenance-dammam",
     "handyman-services-dammam",
+    "home-renovation-dammam",
   ];
 
   const jsonLd = {

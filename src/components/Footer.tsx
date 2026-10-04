@@ -32,6 +32,7 @@ const serviceLinks = [
   { label: "Outdoor & Boundary Wall Repair", href: "/outdoor-boundary-wall-repair-dammam/" },
   { label: "Swimming Pool Repair & Maintenance", href: "/swimming-pool-repair-maintenance-dammam/" },
   { label: "Handyman Services", href: "/handyman-services-dammam/" },
+  { label: "Home Renovation", href: "/home-renovation-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },

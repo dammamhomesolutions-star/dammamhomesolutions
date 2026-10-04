@@ -224,6 +224,26 @@ body {
   .sp-ping { opacity: 0; }
 }
 
+/* Renovation page: before → vision wipe, plan line drawing. */
+@keyframes rn-wipe {
+  0%, 12% { clip-path: inset(0 0 0 82%); }
+  88%, 100% { clip-path: inset(0 0 0 18%); }
+}
+@keyframes rn-wipe-line {
+  0%, 12% { left: 82%; }
+  88%, 100% { left: 18%; }
+}
+@keyframes rn-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.rn-wipe { clip-path: inset(0 0 0 50%); animation: rn-wipe 10s ease-in-out infinite alternate; }
+.rn-wipe-line { left: 50%; animation: rn-wipe-line 10s ease-in-out infinite alternate; }
+.rn-draw { stroke-dasharray: 1; stroke-dashoffset: 0; animation: rn-draw 2.2s cubic-bezier(0.65, 0, 0.35, 1) both; }
+@media (prefers-reduced-motion: reduce) {
+  .rn-wipe, .rn-wipe-line, .rn-draw { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

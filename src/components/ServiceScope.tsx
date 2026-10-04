@@ -30,6 +30,7 @@ const insideHome: ScopeItem[] = [
   { label: "Flooring repair", href: "/flooring-repair/" },
   { label: "Marble & granite polishing", href: "/marble-granite-polishing-dammam/" },
   { label: "Gate & garage door repair", href: "/gate-garage-door-repair/" },
+  { label: "Home renovation", href: "/home-renovation-dammam/" },
 ];
 
 const protectingProperty: ScopeItem[] = [
