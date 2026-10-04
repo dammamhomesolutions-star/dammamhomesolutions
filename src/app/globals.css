@@ -266,6 +266,22 @@ body {
   .md-step { opacity: 1; }
 }
 
+/* Shade page: subtle fabric movement, water runoff drops. */
+@keyframes sh-sway {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(1.5px); }
+}
+@keyframes sh-run {
+  0% { transform: translate(0, 0); opacity: 0; }
+  15% { opacity: 1; }
+  100% { transform: translate(var(--sh-dx, 60px), var(--sh-dy, 30px)); opacity: 0; }
+}
+.sh-sway { animation: sh-sway 5s ease-in-out infinite; }
+.sh-run { animation: sh-run 2.4s ease-in infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .sh-sway, .sh-run { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

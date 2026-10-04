@@ -96,6 +96,7 @@ export default function RootLayout({
     "handyman-services-dammam",
     "home-renovation-dammam",
     "mold-damp-treatment-dammam",
+    "shade-pergola-repair-car-parking-shades-dammam",
   ];
 
   const jsonLd = {

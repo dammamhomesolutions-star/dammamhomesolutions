@@ -40,6 +40,7 @@ const protectingProperty: ScopeItem[] = [
   { label: "Mold & damp treatment", href: "/mold-damp-treatment-dammam/" },
   { label: "Roof & rooftop repair", href: "/roof-repair/" },
   { label: "Outdoor & boundary wall repair", href: "/outdoor-boundary-wall-repair-dammam/" },
+  { label: "Shade & pergola repair", href: "/shade-pergola-repair-car-parking-shades-dammam/" },
   { label: "Roof replacement", href: "/roof-replacement-dammam/" },
   { label: "Fire & smoke damage restoration", href: "/fire-smoke-damage-restoration-dammam/" },
 ];

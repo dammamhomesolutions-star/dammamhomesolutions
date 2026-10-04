@@ -19,6 +19,8 @@ export default function BwRelatedServices() {
           <Link href="/water-leak-repair/" className={linkClass}>water leak repair</Link>
           . Gates themselves are repaired through{" "}
           <Link href="/gate-garage-door-repair/" className={linkClass}>gate &amp; garage door repair</Link>
+          , car parking shades and pergolas through{" "}
+          <Link href="/shade-pergola-repair-car-parking-shades-dammam/" className={linkClass}>shade &amp; pergola repair</Link>
           , and outdoor lights through{" "}
           <Link href="/lighting-fixture-installation-dammam/" className={linkClass}>lighting installation</Link>
           . Landlords and compounds can plan repairs through{" "}
