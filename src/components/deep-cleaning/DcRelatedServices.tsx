@@ -9,7 +9,9 @@ export default function DcRelatedServices() {
       <div className="container-edge max-w-3xl">
         <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-500">Related services</h2>
         <p className="mt-4 text-sm leading-relaxed text-ink-700">
-          Moving often turns up more than cleaning. If you spot pests in an
+          For sofas, carpets and rugs on their own, see{" "}
+          <Link href="/sofa-carpet-cleaning-dammam/" className={linkClass}>sofa &amp; carpet cleaning</Link>
+          . Moving often turns up more than cleaning. If you spot pests in an
           empty property, see{" "}
           <Link href="/pest-control-dammam/" className={linkClass}>pest control</Link>
           . Scuffed or marked walls before a handover are handled by{" "}

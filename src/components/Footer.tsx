@@ -37,6 +37,7 @@ const serviceLinks = [
   { label: "Fire & Smoke Damage Restoration", href: "/fire-smoke-damage-restoration-dammam/" },
   { label: "Pest Control", href: "/pest-control-dammam/" },
   { label: "Deep & Move-In / Move-Out Cleaning", href: "/deep-cleaning-move-in-move-out-cleaning-dammam/" },
+  { label: "Sofa & Carpet Cleaning", href: "/sofa-carpet-cleaning-dammam/" },
 ];
 
 export default function Footer() {

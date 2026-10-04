@@ -77,6 +77,7 @@ export default function RootLayout({
     "roof-replacement-dammam",
     "pest-control-dammam",
     "deep-cleaning-move-in-move-out-cleaning-dammam",
+    "sofa-carpet-cleaning-dammam",
   ];
 
   const jsonLd = {

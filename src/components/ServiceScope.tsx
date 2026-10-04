@@ -35,6 +35,7 @@ const keepingRunning: ScopeItem[] = [
   { label: "Property maintenance support", href: "/property-maintenance/" },
   { label: "Pest control", href: "/pest-control-dammam/" },
   { label: "Deep & move-in / move-out cleaning", href: "/deep-cleaning-move-in-move-out-cleaning-dammam/" },
+  { label: "Sofa & carpet cleaning", href: "/sofa-carpet-cleaning-dammam/" },
   { label: "General home repairs", href: "/general-home-repairs/" },
   { label: "Emergency home repairs", href: "/emergency-home-repairs/" },
 ];
