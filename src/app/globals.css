@@ -136,6 +136,18 @@ body {
   .wp-needle { animation: none; transform: rotate(15deg); }
 }
 
+/* Appliance repair page: washer drum turning, fridge cold-air drift. */
+@keyframes ap-drift {
+  0% { transform: translateY(0); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: translateY(26px); opacity: 0; }
+}
+.ap-drum { animation: pc-spin 5s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ap-drift { animation: ap-drift 3s ease-in infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .ap-drum, .ap-drift { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

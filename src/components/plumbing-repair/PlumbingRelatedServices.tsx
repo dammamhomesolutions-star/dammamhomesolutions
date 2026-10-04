@@ -20,6 +20,11 @@ export default function PlumbingRelatedServices() {
           <Link href="/drain-unblocking-sewer-line-cleaning-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
             drain unblocking &amp; sewer line cleaning
           </Link>
+          . A washing machine or dishwasher fault inside the appliance itself
+          is handled by{" "}
+          <Link href="/appliance-repair-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
+            appliance repair
+          </Link>
           . When the
           source of a leak isn&rsquo;t obvious, that falls under{" "}
           <Link href="/water-leak-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">

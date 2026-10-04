@@ -21,6 +21,7 @@ const serviceLinks = [
   { label: "Water Heater Repair & Installation", href: "/water-heater-repair-installation-dammam/" },
   { label: "Drain Unblocking & Sewer Cleaning", href: "/drain-unblocking-sewer-line-cleaning-dammam/" },
   { label: "Water Pump Repair", href: "/water-pump-repair-dammam/" },
+  { label: "Appliance Repair", href: "/appliance-repair-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },
