@@ -88,7 +88,7 @@ export default function RoofReplacementPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "Roof Replacement", item: pageUrl },
         ],
       },

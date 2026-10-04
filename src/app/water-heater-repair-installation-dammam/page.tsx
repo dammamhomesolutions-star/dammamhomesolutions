@@ -27,7 +27,7 @@ const pageUrl = `${siteConfig.url}${path}`;
 const title = "Water Heater Repair & Installation in Dammam";
 const shortTitle = "Water Heater Repair & Installation, Dammam";
 const description =
-  "Water heater repair, replacement and installation in Dammam — electric, instant, gas and solar. We diagnose the fault first, then advise repair or replace. Get a quote.";
+  "Water heater repair, replacement and installation in Dammam — electric, instant, gas and solar. We diagnose first, then advise repair or replace.";
 
 export const metadata: Metadata = {
   title: shortTitle,
@@ -89,7 +89,7 @@ export default function WaterHeaterPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "Water Heater Repair & Installation", item: pageUrl },
         ],
       },

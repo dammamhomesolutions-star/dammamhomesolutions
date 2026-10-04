@@ -7,11 +7,16 @@ export const siteConfig = {
   locale: "en_SA",
   region: "Dammam, Saudi Arabia",
   description:
-    "Property repair and maintenance in Dammam — AC, plumbing, electrical, waterproofing, painting and general home repairs, handled directly.",
+    "Home maintenance and repair in Dammam, Al Khobar, Dhahran and Qatif — AC, plumbing, electrical, waterproofing, painting and handyman work, available 24/7.",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966574205462",
   phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? "+966 57 420 5462",
   // TODO: replace with the verified public contact email.
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
+  // Confirmed by the business: available 24/7; serves these cities.
+  available247: true,
+  areas: ["Dammam", "Al Khobar", "Dhahran", "Qatif"],
+  // TODO: add the Google Business Profile URL once shared.
+  googleBusinessUrl: process.env.NEXT_PUBLIC_GBP_URL ?? "",
 } as const;
 
 export function buildWhatsAppLink(message: string) {

@@ -48,7 +48,7 @@ export default function SpHero() {
           <ol className="flex flex-wrap items-center gap-2 text-xs text-ink-300">
             <li><Link href="/" className="focus-ring rounded-sm hover:text-teal-300">Home</Link></li>
             <li aria-hidden="true">/</li>
-            <li><Link href="/#services" className="focus-ring rounded-sm hover:text-teal-300">Services</Link></li>
+            <li><Link href="/services/" className="focus-ring rounded-sm hover:text-teal-300">Services</Link></li>
             <li aria-hidden="true">/</li>
             <li className="text-sand-50" aria-current="page">Swimming Pool Repair &amp; Maintenance</li>
           </ol>

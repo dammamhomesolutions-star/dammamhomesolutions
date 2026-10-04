@@ -24,7 +24,7 @@ export default function TermsConditionsPage() {
   return (
     <>
       <Header />
-      <LegalBreadcrumb label="Terms & Conditions" />
+      <LegalBreadcrumb label="Terms & Conditions" path="/terms-conditions/" />
       <main id="main">
         <section className="border-b border-ink-900/10 bg-sand-50 py-16 sm:py-20">
           <div className="container-edge max-w-2xl">

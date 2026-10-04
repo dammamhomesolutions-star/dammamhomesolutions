@@ -29,7 +29,7 @@ const path = "/sofa-carpet-cleaning-dammam/";
 const pageUrl = `${siteConfig.url}${path}`;
 const title = "Sofa & Carpet Cleaning in Dammam";
 const description =
-  "Sofa, upholstery, carpet and rug cleaning in Dammam. Material-aware methods for stains, soil and odours in homes and offices, with honest advice on what can come out.";
+  "Sofa, upholstery, carpet and rug cleaning in Dammam. Material-aware methods for stains, soil and odours, with honest advice on what can come out.";
 
 export const metadata: Metadata = {
   title,
@@ -82,7 +82,7 @@ export default function SofaCarpetCleaningPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "Sofa & Carpet Cleaning", item: pageUrl },
         ],
       },

@@ -7,8 +7,8 @@ export default function ContactHero() {
           Need something fixed? Let&rsquo;s talk.
         </h1>
         <p className="mt-5 text-[15px] leading-relaxed text-ink-600 sm:text-base">
-          WhatsApp is the fastest way to reach us, but you can also call or
-          email if that works better for you.
+          WhatsApp or call us any time — we&rsquo;re available 24/7 across Dammam,
+          Al Khobar, Dhahran and Qatif. Or fill in the short form below.
         </p>
       </div>
     </section>

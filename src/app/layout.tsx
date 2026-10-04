@@ -25,7 +25,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Property Repair & Maintenance`,
+    default: `Home Maintenance & Repair Services in Dammam | ${siteConfig.name}`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | Property Repair & Maintenance`,
+    title: `Home Maintenance & Repair Services in Dammam | ${siteConfig.name}`,
     description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | Property Repair & Maintenance`,
+    title: `Home Maintenance & Repair Services in Dammam | ${siteConfig.name}`,
     description: siteConfig.description,
   },
   verification: {
@@ -111,10 +111,14 @@ export default function RootLayout({
         image: `${siteConfig.url}/opengraph-image`,
         telephone: siteConfig.phoneDisplay,
         ...(siteConfig.email ? { email: siteConfig.email } : {}),
-        areaServed: {
-          "@type": "City",
-          name: "Dammam",
+        areaServed: siteConfig.areas.map((name) => ({ "@type": "City", name })),
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          opens: "00:00",
+          closes: "23:59",
         },
+        knowsAbout: ["Home maintenance", "AC repair", "Plumbing", "Electrical repair", "Waterproofing", "Painting", "Handyman services"],
         address: {
           "@type": "PostalAddress",
           addressLocality: "Dammam",
@@ -135,6 +139,7 @@ export default function RootLayout({
         url: siteConfig.url,
         name: siteConfig.name,
         publisher: { "@id": `${siteConfig.url}/#business` },
+        inLanguage: "en-SA",
       },
     ],
   };

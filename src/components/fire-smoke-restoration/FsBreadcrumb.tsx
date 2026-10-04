@@ -12,7 +12,7 @@ export default function FsBreadcrumb() {
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href="/#services" className="focus-ring rounded-sm hover:text-ember-700">
+            <Link href="/services/" className="focus-ring rounded-sm hover:text-ember-700">
               Services
             </Link>
           </li>

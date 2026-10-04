@@ -71,7 +71,7 @@ export default function ShHero() {
           <ol className="flex flex-wrap items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-steel-600">
             <li><Link href="/" className="focus-ring rounded-sm hover:text-copper-700">Home</Link></li>
             <li aria-hidden="true">/</li>
-            <li><Link href="/#services" className="focus-ring rounded-sm hover:text-copper-700">Services</Link></li>
+            <li><Link href="/services/" className="focus-ring rounded-sm hover:text-copper-700">Services</Link></li>
             <li aria-hidden="true">/</li>
             <li className="text-ink-900" aria-current="page">Shade &amp; Pergola Repair</li>
           </ol>

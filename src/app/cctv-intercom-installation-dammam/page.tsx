@@ -30,7 +30,7 @@ const path = "/cctv-intercom-installation-dammam/";
 const pageUrl = `${siteConfig.url}${path}`;
 const title = "CCTV & Intercom Installation in Dammam";
 const description =
-  "CCTV and intercom installation in Dammam for villas, apartments, offices and shops. We plan camera coverage, recording and door entry, then install. Request an assessment.";
+  "CCTV and intercom installation in Dammam for villas, apartments, offices and shops. Camera coverage, recording and door entry planned, then installed.";
 
 export const metadata: Metadata = {
   title,
@@ -92,7 +92,7 @@ export default function CctvIntercomPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "CCTV & Intercom Installation", item: pageUrl },
         ],
       },

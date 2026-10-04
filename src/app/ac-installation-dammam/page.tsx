@@ -27,7 +27,7 @@ const path = "/ac-installation-dammam/";
 const pageUrl = `${siteConfig.url}${path}`;
 const title = "AC Installation in Dammam";
 const description =
-  "AC installation in Dammam for split, ducted, window, cassette and floor-standing units. Sizing, placement, piping, drainage, electrical connection and testing, planned properly.";
+  "AC installation in Dammam for split, ducted, window, cassette and floor-standing units — sizing, placement, piping, drainage, wiring and testing.";
 
 export const metadata: Metadata = {
   title,
@@ -80,7 +80,7 @@ export default function AcInstallationPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "AC Installation", item: pageUrl },
         ],
       },

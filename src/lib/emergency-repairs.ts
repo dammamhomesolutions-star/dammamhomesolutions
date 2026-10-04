@@ -276,7 +276,7 @@ export const ehFaqs: EhFaqEntry[] = [
   },
   {
     q: "Do you provide 24/7 emergency service?",
-    a: "We haven't confirmed round-the-clock coverage on this page. Contact us with your situation and we'll let you know what's realistically available.",
+    a: "Yes. We're available 24/7 — message or call any time and tell us what's happening. If there's a risk to people, contact the emergency services first.",
     group: "Getting started",
   },
   {

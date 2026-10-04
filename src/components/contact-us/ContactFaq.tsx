@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 const faqs = [
   {
     q: "How quickly will I get a reply?",
-    a: `We reply on WhatsApp during working hours. If you send photos or a video along with your message, it usually helps us respond with a clearer answer the first time.`,
+    a: `We're available 24/7 on WhatsApp and by phone. If you send photos or a video along with your message, it usually helps us respond with a clearer answer the first time.`,
   },
   {
     q: "Do I need to know which service I need before contacting you?",

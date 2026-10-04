@@ -24,7 +24,7 @@ export default function RefundPolicyPage() {
   return (
     <>
       <Header />
-      <LegalBreadcrumb label="Refund & Cancellation Policy" />
+      <LegalBreadcrumb label="Refund & Cancellation Policy" path="/refund-policy/" />
       <main id="main">
         <section className="border-b border-ink-900/10 bg-sand-50 py-16 sm:py-20">
           <div className="container-edge max-w-2xl">

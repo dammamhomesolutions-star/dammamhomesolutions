@@ -28,7 +28,7 @@ const path = "/pest-control-dammam/";
 const pageUrl = `${siteConfig.url}${path}`;
 const title = "Pest Control in Dammam";
 const description =
-  "Pest control in Dammam for homes and businesses. Identify pest activity, treat infestations and reduce the conditions that let cockroaches, ants and other pests return.";
+  "Pest control in Dammam for homes and businesses: find the activity, treat infestations and reduce the conditions that let cockroaches, ants and pests return.";
 
 export const metadata: Metadata = {
   title,
@@ -81,7 +81,7 @@ export default function PestControlPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "Pest Control", item: pageUrl },
         ],
       },

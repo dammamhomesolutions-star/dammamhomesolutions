@@ -12,7 +12,7 @@ export default function ScBreadcrumb() {
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href="/#services" className="focus-ring rounded-sm hover:text-glass-700">
+            <Link href="/services/" className="focus-ring rounded-sm hover:text-glass-700">
               Services
             </Link>
           </li>

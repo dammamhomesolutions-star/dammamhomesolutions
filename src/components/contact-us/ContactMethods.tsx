@@ -2,7 +2,7 @@ import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const sendItems = [
   "What is wrong?",
-  "Your Dammam location",
+  "Your location (city and district)",
   "Photos or video, if useful",
   "Preferred time",
 ];
@@ -34,7 +34,7 @@ export default function ContactMethods() {
 
             <div className="flex flex-col items-start gap-4 rounded-2xl bg-sand-50 p-7 lg:items-center lg:text-center">
               <p className="text-sm text-ink-600 lg:max-w-xs">
-                We reply on WhatsApp during working hours. This is the fastest
+                We&rsquo;re available 24/7 on WhatsApp and by phone. This is the fastest
                 way to describe your repair or maintenance need.
               </p>
               <a

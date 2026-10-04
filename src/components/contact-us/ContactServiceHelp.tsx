@@ -12,7 +12,7 @@ export default function ContactServiceHelp() {
           A short description of the problem is enough to get started — we&rsquo;ll
           work out which part of the property it relates to. If you&rsquo;d
           rather browse first,{" "}
-          <Link href="/#services" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
+          <Link href="/services/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             see the full list of services
           </Link>
           .

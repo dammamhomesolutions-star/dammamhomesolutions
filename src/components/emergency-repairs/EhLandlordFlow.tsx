@@ -29,8 +29,8 @@ export default function EhLandlordFlow() {
 
         <p className="mt-6 text-sm text-ink-500">
           This is a practical way to organise a request, not a formal
-          emergency property-management contract — we don&rsquo;t currently
-          offer guaranteed SLAs or 24/7 coverage unless stated elsewhere.
+          emergency property-management contract. We&rsquo;re available 24/7,
+          but we don&rsquo;t offer guaranteed SLAs or fixed response times.
         </p>
 
         <a

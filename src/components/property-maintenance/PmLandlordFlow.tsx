@@ -51,7 +51,7 @@ export default function PmLandlordFlow() {
             <p className="mt-8 max-w-xl text-sm leading-relaxed text-ink-500">
               This is a practical way to organise a message, not a formal
               facility-management service. We don&rsquo;t currently offer
-              guaranteed response times, 24/7 support, scheduled maintenance
+              guaranteed response times, scheduled maintenance
               contracts or a dedicated account manager — if that changes,
               this page will say so.
             </p>

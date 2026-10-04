@@ -12,7 +12,7 @@ export default function BwBreadcrumb() {
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href="/#services" className="focus-ring rounded-sm hover:text-clay-700">
+            <Link href="/services/" className="focus-ring rounded-sm hover:text-clay-700">
               Services
             </Link>
           </li>

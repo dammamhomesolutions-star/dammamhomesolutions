@@ -28,7 +28,7 @@ const pageUrl = `${siteConfig.url}${path}`;
 const title = "Drain Unblocking & Sewer Line Cleaning in Dammam";
 const shortTitle = "Drain Unblocking & Sewer Cleaning in Dammam";
 const description =
-  "Drain unblocking and sewer line cleaning in Dammam — snake, water jetting and camera inspection. We find out whether it's one drain or the main line. Request service.";
+  "Drain unblocking and sewer line cleaning in Dammam — snake, water jetting and camera inspection to find out if it's one drain or the main line.";
 
 export const metadata: Metadata = {
   title: shortTitle,
@@ -90,7 +90,7 @@ export default function DrainUnblockingPage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/#services` },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${siteConfig.url}/services/` },
           { "@type": "ListItem", position: 3, name: "Drain Unblocking & Sewer Line Cleaning", item: pageUrl },
         ],
       },

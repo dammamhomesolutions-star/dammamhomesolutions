@@ -1,8 +1,28 @@
+import Link from "next/link";
 import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
-const navLinks = [
-  { label: "Services", href: "/#services" },
+const serviceLinks = [
+  { label: "AC Repair & Maintenance", href: "/ac-repair/" },
+  { label: "Plumbing Repair", href: "/plumbing-repair/" },
+  { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },
+  { label: "Electrical Repair", href: "/electrical-repair/" },
+  { label: "Painting & Wall Repair", href: "/painting-wall-repair/" },
+  { label: "Carpentry, Doors & Locks", href: "/carpentry-doors-locks/" },
+  { label: "Waterproofing", href: "/waterproofing/" },
+  { label: "Mold & Damp Treatment", href: "/mold-damp-treatment-dammam/" },
+];
+
+const maintenanceLinks = [
   { label: "Property Maintenance", href: "/property-maintenance/" },
+  { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
+  { label: "Handyman Services", href: "/handyman-services-dammam/" },
+  { label: "General Home Repairs", href: "/general-home-repairs/" },
+  { label: "Home Renovation", href: "/home-renovation-dammam/" },
+];
+
+const companyLinks = [
+  { label: "All Services", href: "/services/" },
+  { label: "Areas We Serve", href: "/areas-we-serve/" },
   { label: "About Us", href: "/about-us/" },
   { label: "Contact Us", href: "/contact-us/" },
 ];
@@ -13,141 +33,92 @@ const legalLinks = [
   { label: "Refund & Cancellation Policy", href: "/refund-policy/" },
 ];
 
-const serviceLinks = [
-  { label: "AC Repair", href: "/ac-repair/" },
-  { label: "AC Installation", href: "/ac-installation-dammam/" },
-  { label: "AC Duct Cleaning", href: "/ac-duct-cleaning-dammam/" },
-  { label: "Plumbing", href: "/plumbing-repair/" },
-  { label: "Water Heater Repair & Installation", href: "/water-heater-repair-installation-dammam/" },
-  { label: "Drain Unblocking & Sewer Cleaning", href: "/drain-unblocking-sewer-line-cleaning-dammam/" },
-  { label: "Water Pump Repair", href: "/water-pump-repair-dammam/" },
-  { label: "Appliance Repair", href: "/appliance-repair-dammam/" },
-  { label: "CCTV & Intercom Installation", href: "/cctv-intercom-installation-dammam/" },
-  { label: "Lighting & Fixture Installation", href: "/lighting-fixture-installation-dammam/" },
-  { label: "Furniture Assembly", href: "/furniture-assembly-dammam/" },
-  { label: "Curtain & Blind Installation", href: "/curtain-blind-installation-dammam/" },
-  { label: "Wallpaper Installation", href: "/wallpaper-installation-dammam/" },
-  { label: "False Ceiling Installation", href: "/false-ceiling-installation-dammam/" },
-  { label: "Marble & Granite Polishing", href: "/marble-granite-polishing-dammam/" },
-  { label: "Outdoor & Boundary Wall Repair", href: "/outdoor-boundary-wall-repair-dammam/" },
-  { label: "Shade & Pergola Repair", href: "/shade-pergola-repair-car-parking-shades-dammam/" },
-  { label: "Swimming Pool Repair & Maintenance", href: "/swimming-pool-repair-maintenance-dammam/" },
-  { label: "Handyman Services", href: "/handyman-services-dammam/" },
-  { label: "Home Renovation", href: "/home-renovation-dammam/" },
-  { label: "Electrical", href: "/electrical-repair/" },
-  { label: "Waterproofing", href: "/waterproofing/" },
-  { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },
-  { label: "Mold & Damp Treatment", href: "/mold-damp-treatment-dammam/" },
-  { label: "Water Tank Cleaning", href: "/water-tank-cleaning/" },
-  { label: "Painting", href: "/painting-wall-repair/" },
-  { label: "Carpentry & Doors", href: "/carpentry-doors-locks/" },
-  { label: "Bathroom & Kitchen", href: "/bathroom-kitchen-repair/" },
-  { label: "Tile & Grout Repair", href: "/tile-repair-grout/" },
-  { label: "Ceiling & Gypsum Board Repair", href: "/ceiling-gypsum-board-repair/" },
-  { label: "Window, Door & Glass Repair", href: "/window-door-glass-repair/" },
-  { label: "Kitchen Cabinet Repair", href: "/kitchen-cabinet-repair/" },
-  { label: "Flooring Repair", href: "/flooring-repair/" },
-  { label: "Gate & Garage Door Repair", href: "/gate-garage-door-repair/" },
-  { label: "Roof & Rooftop Repair", href: "/roof-repair/" },
-  { label: "Roof Replacement", href: "/roof-replacement-dammam/" },
-  { label: "General Home Repairs", href: "/general-home-repairs/" },
-  { label: "Property Maintenance", href: "/property-maintenance/" },
-  { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },
-  { label: "Fire & Smoke Damage Restoration", href: "/fire-smoke-damage-restoration-dammam/" },
-  { label: "Pest Control", href: "/pest-control-dammam/" },
-  { label: "Deep & Move-In / Move-Out Cleaning", href: "/deep-cleaning-move-in-move-out-cleaning-dammam/" },
-  { label: "Sofa & Carpet Cleaning", href: "/sofa-carpet-cleaning-dammam/" },
-];
+const areaSlug = (a: string) => a.toLowerCase().replace(/\s+/g, "-");
+
+function Col({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-500">{title}</p>
+      <ul className="mt-4 space-y-2.5">{children}</ul>
+    </div>
+  );
+}
+
+const linkCls = "focus-ring rounded-sm text-sm text-ink-700 hover:text-rust-700";
 
 export default function Footer() {
   return (
     <footer className="border-t border-ink-900/10 bg-sand-100/60 pb-28 pt-16 sm:pb-16">
-      <div className="container-edge grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="lg:col-span-1">
-          <p className="font-serif text-lg font-semibold text-ink-950">
-            Dammam Home Solutions
-          </p>
+      <div className="container-edge grid gap-10 sm:grid-cols-2 lg:grid-cols-12">
+        <div className="sm:col-span-2 lg:col-span-4">
+          <p className="font-serif text-lg font-semibold text-ink-950">Dammam Home Solutions</p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-ink-600">
-            Property repair and maintenance for homes and rental properties
-            in {siteConfig.region}.
+            Home maintenance and repair services for residential customers across
+            Dammam, Al Khobar, Dhahran and Qatif.
           </p>
+          <p className="mt-4 inline-flex items-center gap-2 rounded-full border border-ink-900/15 px-3 py-1 text-xs font-semibold text-ink-800">
+            <span aria-hidden="true" className="h-2 w-2 rounded-full bg-moss-600" /> Available 24/7
+          </p>
+          <div className="mt-6 flex flex-wrap gap-2">
+            <a href={buildTelLink()} className="focus-ring inline-flex items-center rounded-full border border-ink-900/20 px-4 py-2 text-sm font-semibold text-ink-950 hover:border-ink-900/50">
+              Call {siteConfig.phoneDisplay}
+            </a>
+            <a
+              href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like a quote for a repair or maintenance job.")}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="focus-ring inline-flex items-center rounded-full bg-ink-950 px-4 py-2 text-sm font-semibold text-sand-50"
+            >
+              WhatsApp
+            </a>
+          </div>
         </div>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-500">
-            Navigation
-          </p>
-          <ul className="mt-4 space-y-2.5">
-            {navLinks.map((l) => (
-              <li key={l.href}>
-                <a href={l.href} className="focus-ring rounded-sm text-sm text-ink-700 hover:text-rust-700">
-                  {l.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-500">
-            Services
-          </p>
-          <ul className="mt-4 space-y-2.5">
+        <div className="lg:col-span-3">
+          <Col title="Services">
             {serviceLinks.map((l) => (
-              <li key={l.href}>
-                <a href={l.href} className="focus-ring rounded-sm text-sm text-ink-700 hover:text-rust-700">
-                  {l.label}
-                </a>
-              </li>
+              <li key={l.href}><Link href={l.href} className={linkCls}>{l.label}</Link></li>
             ))}
-          </ul>
+            <li><Link href="/services/" className={`${linkCls} font-semibold text-ink-950`}>View all services →</Link></li>
+          </Col>
         </div>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-500">
-            Contact
-          </p>
-          <ul className="mt-4 space-y-2.5 text-sm text-ink-700">
-            <li>
-              <a
-                href={buildWhatsAppLink("Hello Dammam Home Solutions, I'd like to get in touch.")}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="focus-ring rounded-sm hover:text-rust-700"
-              >
-                WhatsApp
-              </a>
-            </li>
-            {siteConfig.phoneDisplay && (
-              <li>
-                <a href={buildTelLink()} className="focus-ring rounded-sm hover:text-rust-700">
-                  {siteConfig.phoneDisplay}
-                </a>
-              </li>
-            )}
-            {siteConfig.email && (
-              <li>
-                <a href={`mailto:${siteConfig.email}`} className="focus-ring rounded-sm hover:text-rust-700">
-                  {siteConfig.email}
-                </a>
-              </li>
-            )}
-            <li className="text-ink-500">Dammam, Saudi Arabia</li>
-          </ul>
+        <div className="lg:col-span-2">
+          <Col title="Home maintenance">
+            {maintenanceLinks.map((l) => (
+              <li key={l.href}><Link href={l.href} className={linkCls}>{l.label}</Link></li>
+            ))}
+          </Col>
+        </div>
+
+        <div className="grid grid-cols-2 gap-10 sm:col-span-2 lg:col-span-3 lg:grid-cols-1">
+          <Col title="Areas">
+            {siteConfig.areas.map((a) => (
+              <li key={a}><Link href={`/areas-we-serve/#${areaSlug(a)}`} className={linkCls}>{a}</Link></li>
+            ))}
+          </Col>
+          <Col title="Company">
+            {companyLinks.map((l) => (
+              <li key={l.href}><Link href={l.href} className={linkCls}>{l.label}</Link></li>
+            ))}
+          </Col>
         </div>
       </div>
 
       <div className="container-edge mt-12 flex flex-col gap-4 border-t border-ink-900/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs text-ink-500">
-          © {new Date().getFullYear()} Dammam Home Solutions. All rights
-          reserved.
+          © {new Date().getFullYear()} Dammam Home Solutions · {siteConfig.region}
+          {siteConfig.email && (
+            <>
+              {" · "}
+              <a href={`mailto:${siteConfig.email}`} className="focus-ring rounded-sm hover:text-rust-700">{siteConfig.email}</a>
+            </>
+          )}
         </p>
         <ul className="flex flex-wrap gap-x-5 gap-y-2">
           {legalLinks.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="focus-ring rounded-sm text-xs text-ink-500 hover:text-rust-700">
-                {l.label}
-              </a>
+              <Link href={l.href} className="focus-ring rounded-sm text-xs text-ink-500 hover:text-rust-700">{l.label}</Link>
             </li>
           ))}
         </ul>
