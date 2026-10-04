@@ -19,6 +19,10 @@ export default function CrRelatedServices() {
           <Link href="/painting-wall-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-slate-600 decoration-2 underline-offset-4 hover:text-slate-700">
             painting &amp; wall repair
           </Link>
+          , a new or redesigned ceiling is handled by{" "}
+          <Link href="/false-ceiling-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-slate-600 decoration-2 underline-offset-4 hover:text-slate-700">
+            false ceiling installation
+          </Link>
           , and a wider set of issues across the property is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-slate-600 decoration-2 underline-offset-4 hover:text-slate-700">
             property maintenance
