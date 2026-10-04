@@ -79,6 +79,7 @@ export default function RootLayout({
     "deep-cleaning-move-in-move-out-cleaning-dammam",
     "sofa-carpet-cleaning-dammam",
     "ac-installation-dammam",
+    "ac-duct-cleaning-dammam",
   ];
 
   const jsonLd = {

@@ -12,6 +12,8 @@ export default function AiRelatedServices() {
           Once the system is in, regular servicing and any faults are handled
           through{" "}
           <Link href="/ac-repair/" className={linkClass}>AC repair &amp; maintenance</Link>
+          . Ducted systems that have been running a while may need{" "}
+          <Link href="/ac-duct-cleaning-dammam/" className={linkClass}>duct cleaning</Link>
           . Circuit or board upgrades go through{" "}
           <Link href="/electrical-repair/" className={linkClass}>electrical repair</Link>
           , and wall openings left by old units can be patched and repainted with{" "}

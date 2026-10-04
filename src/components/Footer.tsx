@@ -16,6 +16,7 @@ const legalLinks = [
 const serviceLinks = [
   { label: "AC Repair", href: "/ac-repair/" },
   { label: "AC Installation", href: "/ac-installation-dammam/" },
+  { label: "AC Duct Cleaning", href: "/ac-duct-cleaning-dammam/" },
   { label: "Plumbing", href: "/plumbing-repair/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
