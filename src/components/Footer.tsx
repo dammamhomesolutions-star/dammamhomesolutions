@@ -30,6 +30,7 @@ const serviceLinks = [
   { label: "Flooring Repair", href: "/flooring-repair/" },
   { label: "Gate & Garage Door Repair", href: "/gate-garage-door-repair/" },
   { label: "Roof & Rooftop Repair", href: "/roof-repair/" },
+  { label: "Roof Replacement", href: "/roof-replacement-dammam/" },
   { label: "General Home Repairs", href: "/general-home-repairs/" },
   { label: "Property Maintenance", href: "/property-maintenance/" },
   { label: "Emergency Home Repairs", href: "/emergency-home-repairs/" },

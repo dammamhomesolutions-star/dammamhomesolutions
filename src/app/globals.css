@@ -67,7 +67,7 @@ body {
   .fs-flow { animation: none; }
 }
 
-/* Faint architectural grid, used only on the property-maintenance page. */
+/* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:
     linear-gradient(to right, rgba(20, 24, 31, 0.05) 1px, transparent 1px),

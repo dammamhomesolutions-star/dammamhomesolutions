@@ -6,7 +6,12 @@ export default function RfRelatedServices() {
       <div className="container-edge max-w-3xl">
         <p className="text-sm leading-relaxed text-ink-700">
           A rooftop concern sometimes overlaps with other work around the
-          property. Dedicated waterproofing work falls under{" "}
+          property. If repeated repairs aren&rsquo;t holding, it may be time
+          to look at{" "}
+          <Link href="/roof-replacement-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
+            roof replacement
+          </Link>
+          . Dedicated waterproofing work falls under{" "}
           <Link href="/waterproofing/" className="focus-ring font-semibold text-ink-950 underline decoration-teal-600 decoration-2 underline-offset-4 hover:text-teal-700">
             waterproofing
           </Link>
