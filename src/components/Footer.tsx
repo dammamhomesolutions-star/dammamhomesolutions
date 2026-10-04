@@ -24,6 +24,7 @@ const serviceLinks = [
   { label: "Appliance Repair", href: "/appliance-repair-dammam/" },
   { label: "CCTV & Intercom Installation", href: "/cctv-intercom-installation-dammam/" },
   { label: "Lighting & Fixture Installation", href: "/lighting-fixture-installation-dammam/" },
+  { label: "Furniture Assembly", href: "/furniture-assembly-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },

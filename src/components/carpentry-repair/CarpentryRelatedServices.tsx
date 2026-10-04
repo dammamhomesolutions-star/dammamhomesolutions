@@ -18,6 +18,10 @@ export default function CarpentryRelatedServices() {
           <Link href="/kitchen-cabinet-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-amber-600 decoration-2 underline-offset-4 hover:text-amber-700">
             kitchen cabinet &amp; joinery repair
           </Link>
+          , flat-pack wardrobes, beds and desks are put together through{" "}
+          <Link href="/furniture-assembly-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-amber-600 decoration-2 underline-offset-4 hover:text-amber-700">
+            furniture assembly
+          </Link>
           , and everything else around the property is covered by{" "}
           <Link href="/general-home-repairs/" className="focus-ring font-semibold text-ink-950 underline decoration-amber-600 decoration-2 underline-offset-4 hover:text-amber-700">
             general home repairs
