@@ -7,6 +7,7 @@ const insideHome: ScopeItem[] = [
   { label: "Plumbing", href: "/plumbing-repair/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "AC & HVAC", href: "/ac-repair/" },
+  { label: "AC installation", href: "/ac-installation-dammam/" },
   { label: "Painting", href: "/painting-wall-repair/" },
   { label: "Carpentry", href: "/carpentry-doors-locks/" },
   { label: "Bathroom repairs", href: "/bathroom-kitchen-repair/" },

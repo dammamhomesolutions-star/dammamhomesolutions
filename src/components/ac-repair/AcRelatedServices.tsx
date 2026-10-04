@@ -6,7 +6,12 @@ export default function AcRelatedServices() {
       <div className="container-edge max-w-3xl">
         <p className="text-sm leading-relaxed text-ink-700">
           An AC problem sometimes connects to other systems in the property.
-          A fault behind a unit&rsquo;s power supply may fall under{" "}
+          If a unit is beyond repair or you&rsquo;re adding cooling to a new
+          room, see{" "}
+          <Link href="/ac-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-700">
+            AC installation
+          </Link>
+          . A fault behind a unit&rsquo;s power supply may fall under{" "}
           <Link href="/electrical-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-700">
             electrical repair
           </Link>
