@@ -87,6 +87,7 @@ export default function RootLayout({
     "cctv-intercom-installation-dammam",
     "lighting-fixture-installation-dammam",
     "furniture-assembly-dammam",
+    "curtain-blind-installation-dammam",
   ];
 
   const jsonLd = {

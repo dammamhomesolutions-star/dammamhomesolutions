@@ -14,6 +14,10 @@ export default function WdRelatedServices() {
           <Link href="/carpentry-doors-locks/" className="focus-ring font-semibold text-ink-950 underline decoration-glass-600 decoration-2 underline-offset-4 hover:text-glass-700">
             carpentry, doors &amp; locks
           </Link>
+          , curtains, blinds and tracks fitted through{" "}
+          <Link href="/curtain-blind-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-glass-600 decoration-2 underline-offset-4 hover:text-glass-700">
+            curtain &amp; blind installation
+          </Link>
           , or a wider set of issues across the property covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-glass-600 decoration-2 underline-offset-4 hover:text-glass-700">
             property maintenance
