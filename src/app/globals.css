@@ -178,6 +178,16 @@ body {
   .lt-sway, .lt-beam { animation: none; }
 }
 
+/* Wallpaper page: a sheet easing down into place. */
+@keyframes wl-hang {
+  0%, 15% { transform: translateY(-36px); opacity: 0.6; }
+  60%, 100% { transform: translateY(0); opacity: 1; }
+}
+.wl-hang { animation: wl-hang 5s ease-in-out infinite alternate; }
+@media (prefers-reduced-motion: reduce) {
+  .wl-hang { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

@@ -16,6 +16,7 @@ const insideHome: ScopeItem[] = [
   { label: "Appliance repair", href: "/appliance-repair-dammam/" },
   { label: "CCTV & intercom installation", href: "/cctv-intercom-installation-dammam/" },
   { label: "Painting", href: "/painting-wall-repair/" },
+  { label: "Wallpaper installation", href: "/wallpaper-installation-dammam/" },
   { label: "Carpentry", href: "/carpentry-doors-locks/" },
   { label: "Furniture assembly", href: "/furniture-assembly-dammam/" },
   { label: "Bathroom repairs", href: "/bathroom-kitchen-repair/" },

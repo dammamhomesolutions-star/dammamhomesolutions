@@ -88,6 +88,7 @@ export default function RootLayout({
     "lighting-fixture-installation-dammam",
     "furniture-assembly-dammam",
     "curtain-blind-installation-dammam",
+    "wallpaper-installation-dammam",
   ];
 
   const jsonLd = {

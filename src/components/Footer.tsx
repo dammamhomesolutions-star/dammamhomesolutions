@@ -26,6 +26,7 @@ const serviceLinks = [
   { label: "Lighting & Fixture Installation", href: "/lighting-fixture-installation-dammam/" },
   { label: "Furniture Assembly", href: "/furniture-assembly-dammam/" },
   { label: "Curtain & Blind Installation", href: "/curtain-blind-installation-dammam/" },
+  { label: "Wallpaper Installation", href: "/wallpaper-installation-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },

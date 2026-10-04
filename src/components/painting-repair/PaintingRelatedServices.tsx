@@ -14,6 +14,10 @@ export default function PaintingRelatedServices() {
           <Link href="/ceiling-gypsum-board-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             ceiling &amp; gypsum board repair
           </Link>
+          , a patterned or textured finish is covered by{" "}
+          <Link href="/wallpaper-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
+            wallpaper installation
+          </Link>
           , and unrelated household repairs fall under{" "}
           <Link href="/general-home-repairs/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             general home repairs
