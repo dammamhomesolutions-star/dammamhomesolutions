@@ -23,6 +23,10 @@ export default function GdRelatedServices() {
           <Link href="/cctv-intercom-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
             CCTV &amp; intercom installation
           </Link>
+          . Cracked piers or boundary walls around the gate are handled by{" "}
+          <Link href="/outdoor-boundary-wall-repair-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">
+            outdoor &amp; boundary wall repair
+          </Link>
           . A wider set of issues across the
           property is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-rust-600 decoration-2 underline-offset-4 hover:text-rust-700">

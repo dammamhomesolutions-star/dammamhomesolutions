@@ -198,6 +198,16 @@ body {
   .mg-sheen { animation: none; opacity: 0; }
 }
 
+/* Boundary wall page: a crack tracing itself across the render. */
+@keyframes bw-crack {
+  0% { stroke-dashoffset: 1; }
+  45%, 100% { stroke-dashoffset: 0; }
+}
+.bw-crack { stroke-dasharray: 1; animation: bw-crack 4s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .bw-crack { animation: none; stroke-dashoffset: 0; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

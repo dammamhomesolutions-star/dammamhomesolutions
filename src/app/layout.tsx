@@ -91,6 +91,7 @@ export default function RootLayout({
     "wallpaper-installation-dammam",
     "false-ceiling-installation-dammam",
     "marble-granite-polishing-dammam",
+    "outdoor-boundary-wall-repair-dammam",
   ];
 
   const jsonLd = {

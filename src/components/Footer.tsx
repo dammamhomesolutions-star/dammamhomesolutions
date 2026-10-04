@@ -29,6 +29,7 @@ const serviceLinks = [
   { label: "Wallpaper Installation", href: "/wallpaper-installation-dammam/" },
   { label: "False Ceiling Installation", href: "/false-ceiling-installation-dammam/" },
   { label: "Marble & Granite Polishing", href: "/marble-granite-polishing-dammam/" },
+  { label: "Outdoor & Boundary Wall Repair", href: "/outdoor-boundary-wall-repair-dammam/" },
   { label: "Electrical", href: "/electrical-repair/" },
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water Leak Detection & Repair", href: "/water-leak-repair/" },

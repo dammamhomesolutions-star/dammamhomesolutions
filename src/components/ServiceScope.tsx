@@ -38,6 +38,7 @@ const protectingProperty: ScopeItem[] = [
   { label: "Water tank cleaning", href: "/water-tank-cleaning/" },
   { label: "Damp & moisture issues" },
   { label: "Roof & rooftop repair", href: "/roof-repair/" },
+  { label: "Outdoor & boundary wall repair", href: "/outdoor-boundary-wall-repair-dammam/" },
   { label: "Roof replacement", href: "/roof-replacement-dammam/" },
   { label: "Fire & smoke damage restoration", href: "/fire-smoke-damage-restoration-dammam/" },
 ];
