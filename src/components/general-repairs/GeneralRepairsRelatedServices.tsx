@@ -18,7 +18,12 @@ export default function GeneralRepairsRelatedServices() {
           <Link href="/electrical-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-indigo-600 decoration-2 underline-offset-4 hover:text-indigo-700">
             electrical repair
           </Link>{" "}
-          each cover faults in those systems directly. Ongoing, scheduled
+          each cover faults in those systems directly. A list of small
+          installation and assembly jobs fits{" "}
+          <Link href="/handyman-services-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-indigo-600 decoration-2 underline-offset-4 hover:text-indigo-700">
+            handyman services
+          </Link>
+          . Ongoing, scheduled
           upkeep is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-indigo-600 decoration-2 underline-offset-4 hover:text-indigo-700">
             property maintenance

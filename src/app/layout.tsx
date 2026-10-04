@@ -93,6 +93,7 @@ export default function RootLayout({
     "marble-granite-polishing-dammam",
     "outdoor-boundary-wall-repair-dammam",
     "swimming-pool-repair-maintenance-dammam",
+    "handyman-services-dammam",
   ];
 
   const jsonLd = {
