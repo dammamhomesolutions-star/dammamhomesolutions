@@ -26,7 +26,12 @@ export default function FlRelatedServices() {
           <Link href="/painting-wall-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-clay-600 decoration-2 underline-offset-4 hover:text-clay-700">
             painting &amp; wall repair
           </Link>{" "}
-          can help alongside the floor. A wider set of issues across the
+          can help alongside the floor. Marble or granite that&rsquo;s sound but
+          dull or scratched is handled by{" "}
+          <Link href="/marble-granite-polishing-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-clay-600 decoration-2 underline-offset-4 hover:text-clay-700">
+            marble &amp; granite polishing
+          </Link>
+          . A wider set of issues across the
           property is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-clay-600 decoration-2 underline-offset-4 hover:text-clay-700">
             property maintenance

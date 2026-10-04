@@ -188,6 +188,16 @@ body {
   .wl-hang { animation: none; }
 }
 
+/* Marble page: a reflection sweeping across polished stone. */
+@keyframes mg-sheen {
+  0% { transform: translateX(-140%) skewX(-20deg); }
+  60%, 100% { transform: translateX(260%) skewX(-20deg); }
+}
+.mg-sheen { animation: mg-sheen 5.5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .mg-sheen { animation: none; opacity: 0; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:

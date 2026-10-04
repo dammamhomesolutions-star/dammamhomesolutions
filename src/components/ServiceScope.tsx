@@ -28,6 +28,7 @@ const insideHome: ScopeItem[] = [
   { label: "Ceiling & gypsum board repair", href: "/ceiling-gypsum-board-repair/" },
   { label: "False ceiling installation", href: "/false-ceiling-installation-dammam/" },
   { label: "Flooring repair", href: "/flooring-repair/" },
+  { label: "Marble & granite polishing", href: "/marble-granite-polishing-dammam/" },
   { label: "Gate & garage door repair", href: "/gate-garage-door-repair/" },
 ];
 

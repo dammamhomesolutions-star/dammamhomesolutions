@@ -90,6 +90,7 @@ export default function RootLayout({
     "curtain-blind-installation-dammam",
     "wallpaper-installation-dammam",
     "false-ceiling-installation-dammam",
+    "marble-granite-polishing-dammam",
   ];
 
   const jsonLd = {
