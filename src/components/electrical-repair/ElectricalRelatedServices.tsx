@@ -9,7 +9,12 @@ export default function ElectricalRelatedServices() {
           <Link href="/ac-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-blue-600 decoration-2 underline-offset-4 hover:text-blue-700">
             AC repair
           </Link>{" "}
-          covers faults specific to cooling units. Anything that needs an
+          covers faults specific to cooling units. New fixtures, chandeliers,
+          downlights and outdoor lights are handled by{" "}
+          <Link href="/lighting-fixture-installation-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-blue-600 decoration-2 underline-offset-4 hover:text-blue-700">
+            lighting &amp; fixture installation
+          </Link>
+          . Anything that needs an
           urgent response falls under{" "}
           <Link href="/emergency-home-repairs/" className="focus-ring font-semibold text-ink-950 underline decoration-blue-600 decoration-2 underline-offset-4 hover:text-blue-700">
             emergency home repairs

@@ -85,6 +85,7 @@ export default function RootLayout({
     "water-pump-repair-dammam",
     "appliance-repair-dammam",
     "cctv-intercom-installation-dammam",
+    "lighting-fixture-installation-dammam",
   ];
 
   const jsonLd = {

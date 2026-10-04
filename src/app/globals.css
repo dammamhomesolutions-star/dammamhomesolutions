@@ -163,6 +163,21 @@ body {
   .cv-pan, .cv-pulse { animation: none; }
 }
 
+/* Lighting page: gentle pendant sway and light-cone fade. */
+@keyframes lt-sway {
+  0%, 100% { transform: rotate(-1.5deg); }
+  50% { transform: rotate(1.5deg); }
+}
+@keyframes lt-beam {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.85; }
+}
+.lt-sway { animation: lt-sway 6s ease-in-out infinite; transform-box: view-box; }
+.lt-beam { animation: lt-beam 4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .lt-sway, .lt-beam { animation: none; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:
