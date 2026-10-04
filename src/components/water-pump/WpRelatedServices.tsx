@@ -15,6 +15,8 @@ export default function WpRelatedServices() {
           <Link href="/water-leak-repair/" className={linkClass}>water leak detection</Link>
           , and dirty or discoloured water from the roof tank is handled by{" "}
           <Link href="/water-tank-cleaning/" className={linkClass}>water tank cleaning</Link>
+          . Pool pumps and filters are covered by{" "}
+          <Link href="/swimming-pool-repair-maintenance-dammam/" className={linkClass}>swimming pool repair &amp; maintenance</Link>
           . Wiring and breaker problems go through{" "}
           <Link href="/electrical-repair/" className={linkClass}>electrical repair</Link>
           , and buildings with several pumps may benefit from{" "}
