@@ -26,6 +26,10 @@ export default function WlRelatedServices() {
           <Link href="/painting-wall-repair/" className="focus-ring font-semibold text-ink-950 underline decoration-copper-600 decoration-2 underline-offset-4 hover:text-copper-700">
             painting &amp; wall repair
           </Link>
+          . Damp patches or mold left behind by a leak are handled by{" "}
+          <Link href="/mold-damp-treatment-dammam/" className="focus-ring font-semibold text-ink-950 underline decoration-copper-600 decoration-2 underline-offset-4 hover:text-copper-700">
+            mold &amp; damp treatment
+          </Link>
           . A wider set of issues across the property is covered by{" "}
           <Link href="/property-maintenance/" className="focus-ring font-semibold text-ink-950 underline decoration-copper-600 decoration-2 underline-offset-4 hover:text-copper-700">
             property maintenance

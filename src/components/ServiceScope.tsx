@@ -37,7 +37,7 @@ const protectingProperty: ScopeItem[] = [
   { label: "Waterproofing", href: "/waterproofing/" },
   { label: "Water leakage repair", href: "/water-leak-repair/" },
   { label: "Water tank cleaning", href: "/water-tank-cleaning/" },
-  { label: "Damp & moisture issues" },
+  { label: "Mold & damp treatment", href: "/mold-damp-treatment-dammam/" },
   { label: "Roof & rooftop repair", href: "/roof-repair/" },
   { label: "Outdoor & boundary wall repair", href: "/outdoor-boundary-wall-repair-dammam/" },
   { label: "Roof replacement", href: "/roof-replacement-dammam/" },

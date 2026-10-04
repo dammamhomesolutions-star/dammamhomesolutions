@@ -244,6 +244,28 @@ body {
   .rn-wipe, .rn-wipe-line, .rn-draw { animation: none; }
 }
 
+/* Mold & damp page: moisture flow along a path, condensation drips, path pulse. */
+@keyframes md-flow {
+  to { stroke-dashoffset: -56; }
+}
+@keyframes md-drip {
+  0% { transform: translateY(0); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: translateY(18px); opacity: 0; }
+}
+@keyframes md-step {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+.md-flow { animation: md-flow 2.4s linear infinite; }
+.md-drip { animation: md-drip 2.2s ease-in infinite; }
+.md-step { animation: md-step 3s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .md-flow, .md-drip, .md-step { animation: none; }
+  .md-drip { opacity: 1; }
+  .md-step { opacity: 1; }
+}
+
 /* Faint architectural grid (property maintenance and roof replacement pages). */
 .blueprint-grid {
   background-image:
