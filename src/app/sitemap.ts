@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
+import { arabicPaths, hasArabic, languageAlternates } from "@/lib/i18n";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const entries: MetadataRoute.Sitemap = [
     {
       url: `${siteConfig.url}/`,
       lastModified: new Date(),
@@ -310,4 +311,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
   ];
+
+  // Pages with an Arabic version get hreflang alternates, and the Arabic
+  // URLs are listed alongside them.
+  const withAlternates = entries.map((e) => {
+    const path = e.url.replace(siteConfig.url, "") || "/";
+    return hasArabic(path) ? { ...e, alternates: { languages: languageAlternates(path) } } : e;
+  });
+  const arabic = arabicPaths.map((path) => ({
+    url: `${siteConfig.url}/ar${path}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: path === "/" ? 0.9 : 0.8,
+    alternates: { languages: languageAlternates(path) },
+  }));
+  return [...withAlternates, ...arabic];
 }

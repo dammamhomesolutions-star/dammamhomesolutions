@@ -2,7 +2,9 @@ import Link from "next/link";
 
 // Cut-away of a two-storey villa. Each pin links to the service for that
 // part of the home; the drawing itself is decorative.
-const pins = [
+export interface HousePin { label: string; href: string; x: number; y: number }
+
+const defaultPins: HousePin[] = [
   { label: "Roof & waterproofing", href: "/waterproofing/", x: 34, y: 14 },
   { label: "Water tank", href: "/water-tank-cleaning/", x: 70, y: 9 },
   { label: "AC repair", href: "/ac-repair/", x: 82, y: 33 },
@@ -14,7 +16,7 @@ const pins = [
   { label: "Water leaks", href: "/water-leak-repair/", x: 32, y: 88 },
 ];
 
-export default function HpHouse() {
+export default function HpHouse({ pins = defaultPins }: { pins?: HousePin[] }) {
   return (
     <div>
       <div className="relative">
@@ -74,7 +76,7 @@ export default function HpHouse() {
           <span className="flex h-7 w-7 items-center justify-center rounded-full bg-rust-700 font-mono text-[11px] font-semibold text-sand-50 shadow-lg ring-4 ring-sand-50/80 transition-transform group-hover:scale-110 sm:h-8 sm:w-8">
             {i + 1}
           </span>
-          <span className="pointer-events-none absolute left-9 hidden whitespace-nowrap rounded-full bg-ink-950 px-3 py-1 text-xs font-semibold text-sand-50 opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100 sm:block">
+          <span className="pointer-events-none absolute start-9 hidden whitespace-nowrap rounded-full bg-ink-950 px-3 py-1 text-xs font-semibold text-sand-50 opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100 sm:block">
             {p.label}
           </span>
         </Link>

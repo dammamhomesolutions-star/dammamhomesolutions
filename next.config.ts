@@ -54,6 +54,10 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  // Two root layouts (English and Arabic) — unmatched URLs use app/global-not-found.tsx.
+  experimental: {
+    globalNotFound: true,
+  },
   async headers() {
     return [
       {

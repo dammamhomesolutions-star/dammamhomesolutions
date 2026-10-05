@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { switchTarget } from "@/lib/i18n";
 import { buildTelLink, buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 const navLinks = [
@@ -31,6 +33,7 @@ export default function Header({
 }: HeaderProps) {
   const [compact, setCompact] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const lang = switchTarget(usePathname() || "/");
 
   useEffect(() => {
     const onScroll = () => setCompact(window.scrollY > 24);
@@ -75,6 +78,9 @@ export default function Header({
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          <a href={lang.href} hrefLang="ar" lang="ar" className="focus-ring rounded-full px-3 py-2 text-sm font-semibold text-ink-800 hover:text-rust-700">
+            العربية
+          </a>
           <a
             href={buildTelLink()}
             className="focus-ring hidden items-center gap-2 rounded-full border border-ink-900/15 px-4 py-2.5 text-sm font-semibold text-ink-900 transition-colors hover:border-ink-900/40 md:inline-flex"
